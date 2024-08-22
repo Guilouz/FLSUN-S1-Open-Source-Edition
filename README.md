@@ -47,7 +47,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 ## PREREQUISITES
 
 -	microSD card with small capacity (e.g. 128MB or 256MB) to flash motherboard firmware
--	microSD card with a minimum size of 16GB for FLSUN OS
+-	microSD card with a minimum size of 16GB for FLSUN OS (I recommend SanDisk Extreme PRO)
 
 <br />
 
