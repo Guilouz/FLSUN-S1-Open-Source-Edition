@@ -38,6 +38,10 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 <br />
 
+**Discussions about this project: [Here](https://github.com/Guilouz/FLSUN-Open-Source-Edition/discussions)**
+
+<br />
+
 ## PREREQUISITES
 
 -	MicroSD card with a minimum size of 16GB
