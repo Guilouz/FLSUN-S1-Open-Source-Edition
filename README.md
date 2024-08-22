@@ -29,8 +29,10 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 ### TABLE OF CONTENTS:
 
 -	[PREREQUISITES](#prerequisites)
-- [MICROSD PREPARATION](#microsd-preparation)
--	[PRINTER PREPARATION](#printer-preparation)
+- [MICROSD PREPARATION FOR FLSUN OS](#microsd-preparation-for-flsun-os)
+- [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#microsd-preparation-to-flash-motherboard-firmware)
+- [FLASH MOTHERBOARD FIRMWARE](#flash-motherboard-firmware)
+-	[INSERTING MICROSD CARD FOR FLSUN OS](#inserting-microsd-card-for-flsun-os)
 -	[FIRST BOOT](#first-boot)
 -	[SSH CONNECTION](#ssh-connection)
 -	[WEB INTERFACES](#web-interfaces)
@@ -44,13 +46,16 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## PREREQUISITES
 
--	MicroSD card with a minimum size of 16GB
--	Raspberry Pi Imager: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
--	FLSUN OS image: [FLSUN-OS-S1-1.0.img.gz](https://tinyurl.com/y8kctzh5)
+-	microSD card with small capacity (e.g. 128MB or 256MB) to flash motherboard firmware
+-	microSD card with a minimum size of 16GB for FLSUN OS
 
 <br />
 
-## MICROSD PREPARATION
+## MICROSD PREPARATION FOR FLSUN OS
+
+-	Download and install **Raspberry Pi Imager**: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
+  
+-	Download **FLSUN OS** image: [FLSUN-OS-S1-1.0.img.gz](https://tinyurl.com/y8kctzh5)
 
 - Insert the microSD card into your computer.
 
@@ -61,7 +66,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
     <img width="600" src="https://github.com/user-attachments/assets/8ddad7c1-3669-4961-be57-f44ce926668d">
 
 
--	Click on `Use Custom` button and select FLSUN OS image file (with the extension **.gz**):
+-	Click on `Use Custom` button and select **FLSUN OS** image file (with the extension **.gz**):
 
     <img width="600" src="https://github.com/user-attachments/assets/7761c54f-235f-486e-87f0-4ad6bc6b8ac2">
 
@@ -86,11 +91,49 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
     <img width="600" src="https://github.com/user-attachments/assets/86ca4c99-42f4-4dfc-86ba-662b2cb383fb">
 
 
--	Wait until completion and your microSD card is ready.
+- Wait until the operation is completed and your microSD card is ready, then you can remove it from your computer.
 
 <br />
 
-## PRINTER PREPARATION
+## MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE
+
+Motherboard firmware need to be updated to support latest Klipper version.
+
+- Insert the microSD card with small capacity into your computer.
+
+- Format it in FAT32 and an allocation size of 4096.
+
+- Download the Klipper firmware: [Robin_nano35.bin for Open Source Edition](https://github.com/Guilouz/FLSUN-Open-Source-Edition/raw/main/Motherboard%20Firmwares/Open%20Source%20Edition/Robin_nano35.bin)
+
+- Copy `Robin_nano35.bin` file to the root of the microSD card, then you can remove it from your computer.
+
+<br />
+
+## FLASH MOTHERBOARD FIRMWARE
+
+- Make sure the printer is turned off.
+
+-	Use the H2.0 hex wrench in the accessory box to remove the screws from the top cover of the printer.
+
+- Insert microSD card into the microSD port on the motherboard:
+
+    <img width="900" src="https://github.com/user-attachments/assets/9b02b7a9-1088-4c56-a962-48b4a3e488a9">
+
+- Turn on the printer and wait a few seconds, the flash will be done automatically.
+
+- Installation only takes a few seconds, to verify that the firmware has been successfully installed, the file on the microSD card must have been renamed to `ROBIN_NANO35.BIN.CUR`.
+
+- Turn off the printer, you can remove the microSD card and screw the printer top cover back on.
+
+**Note:** If you want to go back to stock OS you need to reflash motherboad with this firmware: [Robin_nano35.bin for Stock OS](https://github.com/Guilouz/FLSUN-Open-Source-Edition/raw/main/Motherboard%20Firmwares/Stock/Robin_nano35.bin)
+
+<br />
+
+## INSERTING MICROSD CARD FOR FLSUN OS
+
+- Make sure the printer is turned off.
+
+-	Use the H2.0 hex wrench in the accessory box to remove the screws from the top cover of the printer.
 
 -	Use the H2.0 hex wrench in the accessory box to remove the screws above the screen:
 
@@ -150,7 +193,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## SSH CONNECTION
 
--	Download and install the MobaXterm software: [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
+-	Download and install the **MobaXterm** software: [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 -	Launch it then click on the `Session` icon:
 
@@ -176,7 +219,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
  
 ## WEB INTERFACES
 
-By default, Mainsail is installed on port 80. You can also install Fluidd.
+By default, **Mainsail** is installed on port 80. You can also install **Fluidd**.
 
 - **You have two possibilities:**
 
