@@ -16,7 +16,7 @@ This new OS is based on Debian 12 Bookworm and is ready to use.
   -	KlipperScreen (latest build with modifications for S1 support)<br />
   -	Mainsail (latest build without modification)<br />
   -	Moonraker Timelapse<br />
-  -	MJPG-Streamer<br />
+  -	MJPG-Streamer (same as stock) or µStreamer (lightweight and very quick server)<br />
   -	Preconfigured Web interfaces<br />
   -	Improved configuration files with interactive macros<br />
   -	Hostname based on MAC address<br />
@@ -55,7 +55,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 -	Download and install **Raspberry Pi Imager**: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
   
--	Download **FLSUN OS** image: [FLSUN-OS-S1-1.0.img.gz](https://tinyurl.com/y8kctzh5)
+-	Download **FLSUN OS** image: [FLSUN-OS-S1-MJPG-Streamer-1.0.img.gz](https://tinyurl.com/y8kctzh5) or [FLSUN-OS-S1-uStreamer-1.0.img.gz](https://tinyurl.com/y8kctzh5)
 
 - Insert the microSD card into your computer.
 
