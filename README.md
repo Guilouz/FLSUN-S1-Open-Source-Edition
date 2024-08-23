@@ -36,6 +36,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 -	[FIRST BOOT](#first-boot)
 -	[SSH CONNECTION](#ssh-connection)
 -	[WEB INTERFACES](#web-interfaces)
+-	[ENABLE CAMERA SETTINGS MACROS](#enable-camera-settings-macros)
 - [CREDITS](#credits)
 
 <br />
@@ -251,6 +252,22 @@ By default, **Mainsail** is installed on port 80. You can also install **Fluidd*
     -	Enter **3** for Remove menu → **3** for Mainsail → **B** to go back → **1** for Install menu → **4** for Fluidd → Enter **N** to not install the recommended macros
 
     You can access to **Fluidd** with `http://xxx.xxx.xx.xxx/` (replacing xxx.xxx.xxx.xxx by your local IP address).
+
+<br />
+
+## ENABLE CAMERA SETTINGS MACROS
+
+Camera Settings macros are not enabled by default. To enable them:
+
+- Go to your Mainsail Web interface then click on `MACHINE` tab.
+
+- Then, open the `printer.cfg` file and remove the first **#** symbol at the following line:
+
+    ```
+    #[include camera_settings.cfg] # Remove comment to use macros to control camera settings
+    ```
+
+- Click on `SAVE & RESTART` at the top right to save the file.
 
 <br />
 
