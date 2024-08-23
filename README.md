@@ -169,7 +169,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 -	Turn on the printer. You should see the "**Open Source Edition**" boot logo. If not, your image was not correctly written to your microSD card.
 
--	Once you are on the **KlipperScreen** interface, wait for **Moonraker** and **Klipper** to connect (if not click `Retry` button).
+-	Once you are on the **KlipperScreen** interface, wait for **Moonraker** and **Klipper** to connect (if not click `Retry` button). The LEDs on the left side of the screen should light up white as soon as the connection is established.
 
 -	Once connected, click on `Configurations` → `Networks` and connect to your WiFi network. Your IP address should be displayed in the top right corner.
 
