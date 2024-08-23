@@ -55,7 +55,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 -	Download and install **Raspberry Pi Imager**: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
   
--	Download **FLSUN OS** image: [FLSUN-OS-S1-MJPG-Streamer-1.0.img.gz](https://tinyurl.com/y8kctzh5) or [FLSUN-OS-S1-uStreamer-1.0.img.gz](https://tinyurl.com/y8kctzh5)
+-	Download **FLSUN OS** image: [FLSUN-OS-S1-MJPG-Streamer-1.0.img.gz](https://drive.google.com/file/d/1qTHv8TJ-SiAX7IVYaGLF4TmB7qMGNrrE/view?usp=sharing) or [FLSUN-OS-S1-uStreamer-1.0.img.gz](https://drive.google.com/file/d/1fDl4ZtsmOKVfk4W95L23RFput6RuJZ1d/view?usp=sharing)
 
 - Insert the microSD card into your computer.
 
