@@ -259,7 +259,7 @@ By default, **Mainsail** is installed on port 80. You can also install **Fluidd*
 
 Camera Settings macros are not enabled by default. To enable them:
 
-- Go to your Mainsail Web interface then click on `MACHINE` tab.
+- Go to your **Mainsail** Web interface then click on `MACHINE` tab.
 
 - Then, open the `printer.cfg` file and remove the first **#** symbol at the following line:
 
