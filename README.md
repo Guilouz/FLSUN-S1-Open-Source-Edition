@@ -28,6 +28,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ### TABLE OF CONTENTS:
 
+-	[CHANGELOGS](#changelogs)
 -	[PREREQUISITES](#prerequisites)
 - [MICROSD PREPARATION FOR FLSUN OS](#microsd-preparation-for-flsun-os)
 - [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#microsd-preparation-to-flash-motherboard-firmware)
@@ -43,6 +44,24 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 <br />
 
 **Discussions about this project: [Here](https://github.com/Guilouz/FLSUN-Open-Source-Edition/discussions)**
+
+<br />
+
+## CHANGELOGS
+
+**24/08/2024:**
+
+- **Klipper**: Added support for XY Dimension Calibration with `M101` command:
+  - **M101 S0** → Reset XY Offsets
+  - **M101 X**zz **T**zz → Define X Offset (X -> Measured Size - T -> Target Size)
+  - **M101 Y**yy **T**zz → Define Y Offset (Y -> Measured Size - T -> Target Size)
+
+- **Klipper**: Configuration files updated to include `CALIBRATION_X_OFFSET`, `CALIBRATION_Y_OFFSET` and `CALIBRATION_RESET_XY_OFFSETS` macros
+
+- **KlipperScreen**: UI now show Spool Weight in grams (setting added to display it in percentage):
+
+    <img width="600" src="https://github.com/user-attachments/assets/de57d546-cd47-45b8-b20f-3c6a3d29a104">
+
 
 <br />
 
