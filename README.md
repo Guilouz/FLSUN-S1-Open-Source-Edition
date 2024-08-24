@@ -37,6 +37,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 -	[SSH CONNECTION](#ssh-connection)
 -	[WEB INTERFACES](#web-interfaces)
 -	[ENABLE CAMERA SETTINGS MACROS](#enable-camera-settings-macros)
+-	[XY DIMENSION CALIBRATION](#xy-dimension-calibration)
 - [CREDITS](#credits)
 
 <br />
@@ -268,6 +269,48 @@ Camera Settings macros are not enabled by default. To enable them:
     ```
 
 - Click on `SAVE & RESTART` at the top right to save the file.
+
+<br />
+
+## XY DIMENSION CALIBRATION
+
+This can be useful if the accuracy of your dimensions is not acceptable.
+
+- Make sure you have latest **Klipper** version in `Update Manager`.
+
+- Download this calibration cube: <a href="https://www.printables.com/model/118657-calibration-cube">Printables</a>
+
+- Slice it and print it.
+
+- Once printed, measure the X and Y dimensions. The ideal values ​​of this model are: X=20mm / Y=20mm.
+
+- If you notice a significant deviation in the measured dimensions, it will therefore be necessary to apply a correction.
+
+- Go to your **Mainsail** Web interface then select the `CONSOLE` tab on the left side.
+
+- Enter this command to reset X/Y Offsets if one of them is already applied:
+
+  ```
+  M101 S0
+  ```
+
+- If you notice a deviation in X, enter this command by replacing `zz`  by your measured value in X (Note: T is the expected value):
+
+  ```
+  M101 Xzz T20
+  ```
+
+- Wait for **Klipper** to restart.
+
+- If you notice a deviation in Y, enter this command by replacing `zz`  by your measured value in Y (Note: T is the expected value):
+ 
+  ```
+  M101 Yzz T20
+  ```
+
+- Wait for **Klipper** to restart.
+
+- Correction is now applied in your `printer.cfg` file. You can reprint your model to see if the accuracy of your dimensions is now acceptable.
 
 <br />
 
