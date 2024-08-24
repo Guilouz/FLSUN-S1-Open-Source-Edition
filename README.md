@@ -54,7 +54,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - **Klipper**: Added support for XY Dimension Calibration with `M101` command:
   - **M101 S0** → Reset XY Offsets
   - **M101 X**zz **T**zz → Define X Offset (X -> Measured Size - T -> Target Size)
-  - **M101 Y**yy **T**zz → Define Y Offset (Y -> Measured Size - T -> Target Size)
+  - **M101 Y**zz **T**zz → Define Y Offset (Y -> Measured Size - T -> Target Size)
 
 - **Klipper**: Configuration files updated to include `CALIBRATION_X_OFFSET`, `CALIBRATION_Y_OFFSET` and `CALIBRATION_RESET_XY_OFFSETS` macros
 
