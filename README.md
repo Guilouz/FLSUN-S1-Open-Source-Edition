@@ -294,6 +294,8 @@ This can be useful if the accuracy of your dimensions is not acceptable.
   M101 S0
   ```
 
+- Wait for **Klipper** to restart.
+
 - If you notice a deviation in X, enter this command by replacing `zz`  by your measured value in X (Note: T is the expected value):
 
   ```
