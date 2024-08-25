@@ -124,7 +124,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 - Format it in FAT32 and an allocation size of 4096.
 
-- Download the Klipper firmware: [Robin_nano35.bin for Open Source Edition](https://github.com/Guilouz/FLSUN-Open-Source-Edition/raw/main/Motherboard%20Firmwares/Open%20Source%20Edition/Robin_nano35.bin)
+- Download the motherboad firmware: [Robin_nano35.bin for Open Source Edition](https://github.com/Guilouz/FLSUN-Open-Source-Edition/raw/main/Motherboard%20Firmwares/Open%20Source%20Edition/Robin_nano35.bin)
 
 - Copy `Robin_nano35.bin` file to the root of the microSD card, then you can remove it from your computer.
 
