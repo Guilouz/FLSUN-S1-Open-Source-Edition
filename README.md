@@ -28,18 +28,18 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ### TABLE OF CONTENTS:
 
--	[CHANGELOGS](#changelogs)
--	[PREREQUISITES](#prerequisites)
-- [MICROSD PREPARATION FOR FLSUN OS](#microsd-preparation-for-flsun-os)
-- [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#microsd-preparation-to-flash-motherboard-firmware)
-- [FLASH MOTHERBOARD FIRMWARE](#flash-motherboard-firmware)
--	[INSERTING MICROSD CARD FOR FLSUN OS](#inserting-microsd-card-for-flsun-os)
--	[FIRST BOOT](#first-boot)
--	[SSH CONNECTION](#ssh-connection)
--	[WEB INTERFACES](#web-interfaces)
--	[ENABLE CAMERA SETTINGS MACROS](#enable-camera-settings-macros)
--	[XY DIMENSION CALIBRATION](#xy-dimension-calibration)
-- [CREDITS](#credits)
+-	[CHANGELOGS](#clipboard-changelogs)
+-	[PREREQUISITES](#memo-prerequisites)
+- [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
+- [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#floppy_disk-microsd-preparation-to-flash-motherboard-firmware)
+- [FLASH MOTHERBOARD FIRMWARE](#zap-flash-motherboard-firmware)
+-	[INSERTING MICROSD CARD FOR FLSUN OS](#wrench-inserting-microsd-card-for-flsun-os)
+-	[FIRST BOOT](#electric_plug-first-boot)
+-	[SSH CONNECTION](#link-ssh-connection)
+-	[WEB INTERFACES](#globe_with_meridians-web-interfaces)
+-	[ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
+-	[XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
+- [CREDITS](#star-credits)
 
 <br />
 
@@ -47,7 +47,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 <br />
 
-## CHANGELOGS
+## :clipboard: CHANGELOGS
 
 **24/08/2024:**
 
@@ -65,14 +65,14 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 <br />
 
-## PREREQUISITES
+## :memo: PREREQUISITES
 
 -	microSD card with small capacity (e.g. 128MB or 256MB) to flash motherboard firmware
 -	microSD card with a minimum size of 16GB for FLSUN OS (I recommend SanDisk Extreme PRO)
 
 <br />
 
-## MICROSD PREPARATION FOR FLSUN OS
+## :floppy_disk: MICROSD PREPARATION FOR FLSUN OS
 
 -	Download and install **Raspberry Pi Imager**: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
   
@@ -116,7 +116,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 <br />
 
-## MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE
+## :floppy_disk: MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE
 
 Motherboard firmware need to be updated to support latest Klipper version.
 
@@ -130,7 +130,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 <br />
 
-## FLASH MOTHERBOARD FIRMWARE
+## :zap: FLASH MOTHERBOARD FIRMWARE
 
 - Make sure the printer is turned off.
 
@@ -150,7 +150,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 <br />
 
-## INSERTING MICROSD CARD FOR FLSUN OS
+## :wrench: INSERTING MICROSD CARD FOR FLSUN OS
 
 - Make sure the printer is turned off.
 
@@ -186,7 +186,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 <br />
 
-## FIRST BOOT
+## :electric_plug: FIRST BOOT
 
 -	Turn on the printer. You should see the "**Open Source Edition**" boot logo. If not, your image was not correctly written to your microSD card.
 
@@ -196,7 +196,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 - Then, restart the printer.
 
--	**WARNING:** Don't forget to calibrate your printer before starting a print. 
+-	**:bangbang: WARNING:** Don't forget to calibrate your printer before starting a print. 
 
  	To do this, go to the `Configurations` → `Calibrations` menu.
 
@@ -210,11 +210,11 @@ Motherboard firmware need to be updated to support latest Klipper version.
     -	root → flsun
     -	pi → flsun
 
--	Enjoy 😃
+-	Enjoy :smiley:
 
 <br />
 
-## SSH CONNECTION
+## :link: SSH CONNECTION
 
 -	Download and install the **MobaXterm** software: [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
 
@@ -240,7 +240,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 <br />
  
-## WEB INTERFACES
+## :globe_with_meridians: WEB INTERFACES
 
 By default, **Mainsail** is installed on port 80. You can also install **Fluidd**.
 
@@ -275,7 +275,7 @@ By default, **Mainsail** is installed on port 80. You can also install **Fluidd*
 
 <br />
 
-## ENABLE CAMERA SETTINGS MACROS
+## :camera: ENABLE CAMERA SETTINGS MACROS
 
 Camera Settings macros are not enabled by default. To enable them:
 
@@ -291,7 +291,7 @@ Camera Settings macros are not enabled by default. To enable them:
 
 <br />
 
-## XY DIMENSION CALIBRATION
+## :triangular_ruler: XY DIMENSION CALIBRATION
 
 This can be useful if the accuracy of your dimensions is not acceptable.
 
@@ -335,7 +335,7 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 
 <br />
 
-## CREDITS
+## :star: CREDITS
 
 - [Guilouz](https://github.com/Guilouz)
 
