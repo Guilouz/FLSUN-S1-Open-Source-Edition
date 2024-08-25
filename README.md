@@ -244,6 +244,14 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 By default, **Mainsail** is installed on port 80. You can also install **Fluidd**.
 
+| Mainsail |
+| :---------: |
+| <img width="1000" src="https://github.com/user-attachments/assets/22d7a89a-0565-42ea-94a0-5ed454a39f4d"> |
+
+| Fluidd |
+| :---------: |
+| <img width="1000" src="https://github.com/user-attachments/assets/5ffd08bd-aeb9-4ebf-8cd2-9f6661886de2"> |
+
 - **You have two possibilities:**
 
   -	Keep Mainsail and install Fluidd on port 81
