@@ -271,7 +271,7 @@ By default, **Mainsail** is installed on port 80. You can also install **Fluidd*
 
     -	Enter **3** for Remove menu → **3** for Mainsail → **B** to go back → **1** for Install menu → **4** for Fluidd → Enter **N** to not install the recommended macros
 
-    You can access to **Fluidd** with `http://xxx.xxx.xx.xxx/` (replacing xxx.xxx.xxx.xxx by your local IP address).
+    You can access to **Fluidd** with `http://xxx.xxx.xx.xxx/` (replacing **xxx.xxx.xxx.xxx** by your local IP address).
 
 <br />
 
