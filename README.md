@@ -28,18 +28,18 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ### TABLE OF CONTENTS:
 
--	[CHANGELOGS](#clipboard-changelogs)
--	[PREREQUISITES](#memo-prerequisites)
-- [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
-- [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#floppy_disk-microsd-preparation-to-flash-motherboard-firmware)
-- [FLASH MOTHERBOARD FIRMWARE](#zap-flash-motherboard-firmware)
--	[INSERTING MICROSD CARD FOR FLSUN OS](#wrench-inserting-microsd-card-for-flsun-os)
--	[FIRST BOOT](#electric_plug-first-boot)
--	[SSH CONNECTION](#link-ssh-connection)
--	[WEB INTERFACES](#globe_with_meridians-web-interfaces)
--	[ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
--	[XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
-- [CREDITS](#star-credits)
+-	:clipboard: [CHANGELOGS](#clipboard-changelogs)
+-	:memo: [PREREQUISITES](#memo-prerequisites)
+- :floppy_disk: [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
+- :floppy_disk: [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#floppy_disk-microsd-preparation-to-flash-motherboard-firmware)
+- :zap: [FLASH MOTHERBOARD FIRMWARE](#zap-flash-motherboard-firmware)
+-	:wrench: [INSERTING MICROSD CARD FOR FLSUN OS](#wrench-inserting-microsd-card-for-flsun-os)
+-	:electric_plug: [FIRST BOOT](#electric_plug-first-boot)
+-	:link: [SSH CONNECTION](#link-ssh-connection)
+-	:globe_with_meridians: [WEB INTERFACES](#globe_with_meridians-web-interfaces)
+-	:camera: [ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
+-	:triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
+- :star: [CREDITS](#star-credits)
 
 <br />
 
