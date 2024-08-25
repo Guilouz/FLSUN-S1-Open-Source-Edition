@@ -39,6 +39,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 -	:globe_with_meridians: [WEB INTERFACES](#globe_with_meridians-web-interfaces)
 -	:camera: [ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
 -	:triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
+-	:movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -340,6 +341,20 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 - Wait for **Klipper** to restart.
 
 - Correction is now applied in your `printer.cfg` file. You can reprint your model to see if the accuracy of your dimensions is now acceptable.
+
+<br />
+
+## :movie_camera: USE TIMELAPSE
+
+Timelapse feature is enabled by default but to use the **layermacro** mode which grabs a frame every layer change you need to add the `TIMELAPSE_TAKE_FRAME` macro to your slicer so that it is added to the Gcode before or after a layer change.
+
+- **OrcaSlicer:**
+
+    Go to Printer Settings → Machine G-code → Before layer change G-code → Add **TIMELAPSE_TAKE_FRAME**
+
+- **FlsunSlicer / PrusaSlicer / SuperSlicer:**
+
+    Go to Printer Settings → Custom G-code → Before layer change Gcode → Add **TIMELAPSE_TAKE_FRAME**
 
 <br />
 
