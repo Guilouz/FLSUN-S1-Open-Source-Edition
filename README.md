@@ -40,6 +40,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 -	:camera: [ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
 -	:triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
 -	:movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
+-	:clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -355,6 +356,34 @@ Timelapse feature is enabled by default but to use the **layermacro** mode which
 - **FlsunSlicer / PrusaSlicer / SuperSlicer:**
 
     Go to Printer Settings → Custom G-code → Before layer change Gcode → Add **TIMELAPSE_TAKE_FRAME**
+
+<br />
+
+## :clock130: UPDATE TIME ZONE
+
+To change time zone, follow these instructions:
+
+- In the SSH command prompt window, enter the following command to check the current time zone:
+
+  ```
+  timedatectl
+  ```
+
+- You can change your time zone by entering this command:
+  
+  ```
+  sudo dpkg-reconfigure tzdata
+  ```
+
+- On the page that appears, select your geographic area from the list and press `Enter`.
+
+- Then select your time zone in the new list and press `Enter`.
+
+- You can then verify that the change has been taken into account by retyping this command:
+  
+  ```
+  timedatectl
+  ```
 
 <br />
 
