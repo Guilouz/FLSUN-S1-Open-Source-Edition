@@ -79,8 +79,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 - **KlipperScreen**: UI now show Spool Weight in grams (setting added to display it in percentage):
 
-    <img width="600" src="https://github.com/user-attachments/assets/de57d546-cd47-45b8-b20f-3c6a3d29a104">
-
+    <img width="600" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
 
 <br />
 
