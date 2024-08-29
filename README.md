@@ -66,7 +66,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
   - Improved `UNLOAD_FILAMENT` & `UNLOAD_FILAMENT` macros.
   - Increased motion sensor detection length.
   - Disabled extruder motor when calibrating resonances.
-  - Added settings for sensors in KlipperScreen.conf
+  - Added settings for sensors in KlipperScreen.conf.
   - Minor fixes.
 
   **Note: Make sure you use latest Klipper configuration files.**
