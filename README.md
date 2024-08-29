@@ -51,6 +51,21 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## :clipboard: CHANGELOGS
 
+**29/08/2024:**
+
+- **KlipperScreen**:
+
+  - Improved retrieval of drying box information (improves fluidity). 
+  - Added prompt for filament unloading process.
+  - Now possible to load or unload filament at the desired temperature.
+
+- **Klipper configurations files:**
+
+  - Improved `UNLOAD_FILAMENT` & `UNLOAD_FILAMENT` macros.
+  - Increased motion sensor detection length.
+  - Disabled extruder motor when calibrating resonances.
+  - Minor fixes.
+
 **24/08/2024:**
 
 - **Klipper**: Added support for XY Dimension Calibration with `M101` command:
