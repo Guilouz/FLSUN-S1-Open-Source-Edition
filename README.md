@@ -24,6 +24,8 @@ This new OS is based on Debian 12 Bookworm and is ready to use.
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
+<img width="700" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
+
 <br />
 
 ### TABLE OF CONTENTS:
@@ -73,16 +75,20 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 **24/08/2024:**
 
-- **Klipper**: Added support for XY Dimension Calibration with `M101` command:
-  - **M101 S0** → Reset XY Offsets
-  - **M101 X**zz **T**zz → Define X Offset (X → Measured Size - T → Target Size)
-  - **M101 Y**zz **T**zz → Define Y Offset (Y → Measured Size - T → Target Size)
+- **Klipper**:
 
-- **Klipper**: Configuration files updated to include `CALIBRATION_X_OFFSET`, `CALIBRATION_Y_OFFSET` and `CALIBRATION_RESET_XY_OFFSETS` macros
+  - Added support for XY Dimension Calibration with `M101` command:
+    - **M101 S0** → Reset XY Offsets
+    - **M101 X**zz **T**zz → Define X Offset (X → Measured Size - T → Target Size)
+    - **M101 Y**zz **T**zz → Define Y Offset (Y → Measured Size - T → Target Size)
 
-- **KlipperScreen**: UI now show Spool Weight in grams (setting added to display it in percentage):
+- **Klipper configurations files:**
+  
+  - Updated to include `CALIBRATION_X_OFFSET`, `CALIBRATION_Y_OFFSET` and `CALIBRATION_RESET_XY_OFFSETS` macros
 
-    <img width="600" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
+- **KlipperScreen**:
+
+  - UI now show Spool Weight in grams (setting added to display it in percentage):
 
 <br />
 
