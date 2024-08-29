@@ -5,7 +5,7 @@ Closed Beta Test
 
 <br /><br />
 
-This Open Source version uses the microSD port of the motherboard to boot on a new OS. Which means that the original OS is not modified. It’s a kind of dual boot, a simple removal of the microSD card allows to boot on the original OS.
+This Open Source version uses the microSD port of the core board to boot on a new OS. Which means that the original OS is not modified. It’s a kind of dual boot, a simple removal of the microSD card allows to boot on the original OS.
 
 This new OS is based on Debian 12 Bookworm and is ready to use.
 
