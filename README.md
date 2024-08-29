@@ -66,6 +66,8 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
   - Disabled extruder motor when calibrating resonances.
   - Minor fixes.
 
+  **Note: Make sure you use latest Klipper configuration files.**
+
 **24/08/2024:**
 
 - **Klipper**: Added support for XY Dimension Calibration with `M101` command:
