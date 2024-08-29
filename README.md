@@ -29,6 +29,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 ### TABLE OF CONTENTS:
 
 -	:clipboard: [CHANGELOGS](#clipboard-changelogs)
+-	:stars: [SCREENSHOTS](#stars-screenshots)
 -	:memo: [PREREQUISITES](#memo-prerequisites)
 - :floppy_disk: [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
 - :floppy_disk: [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#floppy_disk-microsd-preparation-to-flash-motherboard-firmware)
@@ -80,6 +81,49 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - **KlipperScreen**: UI now show Spool Weight in grams (setting added to display it in percentage):
 
     <img width="600" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
+
+<br />
+
+## :stars: SCREENSHOTS
+
+<details>
+<summary>Show / Hide</summary>
+<br />
+
+- **Main Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
+
+- **Move Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/7789ff3f-60a4-46b2-8d6c-28f9bfd973af">
+
+- **Temperature Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/f10a6ff9-45a0-4dd5-8b8f-db815cfd05f7">
+
+- **Extrude Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/b2d77b6d-a8fe-4b71-b2ab-041550fd22ca">
+
+- **Print Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/eed3b0e3-35bc-4bb7-84ec-f649f0b6abfa">
+
+- **Configurations Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/dc42b935-d5f9-4a88-bdcf-13377611a229">
+
+- **Calibrations Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/76d99fbf-bd1e-4cdd-b7a4-3804ff796a4c">
+
+- **Drying Box Menu**
+
+    <img width="600" src="https://github.com/user-attachments/assets/788bf911-a24d-4f69-8941-791075ca3946">
+
+
+</details>
 
 <br />
 
