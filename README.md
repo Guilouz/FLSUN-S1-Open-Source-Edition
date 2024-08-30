@@ -54,6 +54,15 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## :clipboard: CHANGELOGS
 
+**30/08/2024:**
+
+- **Klipper configurations files:**
+
+  - Fixed macros for `M600`.
+  - Minor fixes.
+
+  **Note: Make sure you use latest Klipper configuration files.**
+
 **29/08/2024:**
 
 - **KlipperScreen**:
