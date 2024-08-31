@@ -46,6 +46,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 -	:triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
 -	:movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
 -	:clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
+-	:earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -56,7 +57,26 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## :clipboard: CHANGELOGS
 
+**01/09/2024:**
+
+- **New FLSUN OS image version 1.1:**
+	- Updated kernel to restore CPU frequency to 1.5GHz instead of 1GHz (50% increase in performance).
+	- Disabled Wi-Fi Power Management, this frees up bandwidth, and increases camera fps.
+	- Integration of GuppyFLO, a lightweight self-hosted service that allows remote management via TCP Proxy using Moonraker and Tailscale. See [REMOTE ACCESS](#earth_americas-remote-access) section.
+	- Replaced hostname FLSUN-OS-XXXX with FLSUN-S1-XXXX (still based on MAC address).
+	- Improved SSH header.
+	- Updated Klipper configuration files.
+	- Updated Web interface configuration files.
+	- Integration of FLSUN Gcodes files (Slicer displayed is OrcaSlicer just to have support for info and thumbnails but these are the original Gcodes).
+
+- **KlipperScreen:**
+	- Fixed screen brightness after reboot.
+	- Improved UI.
+
 **30/08/2024:**
+
+<details>
+<summary>Show / Hide</summary>
 
 - **Klipper configurations files:**
 
@@ -65,7 +85,12 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
   **Note: Make sure you use latest Klipper configuration files.**
 
+</details>
+
 **29/08/2024:**
+
+<details>
+<summary>Show / Hide</summary>
 
 - **KlipperScreen**:
 
@@ -84,7 +109,12 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
   **Note: Make sure you use latest Klipper configuration files.**
 
+</details>
+
 **24/08/2024:**
+
+<details>
+<summary>Show / Hide</summary>
 
 - **Klipper**:
 
@@ -99,7 +129,9 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 - **KlipperScreen**:
 
-  - UI now show Spool Weight in grams (setting added to display it in percentage):
+  - UI now show Spool Weight in grams (setting added to display it in percentage).
+
+</details>
 
 <br />
 
@@ -464,6 +496,65 @@ To change time zone, follow these instructions:
   ```
   timedatectl
   ```
+
+<br />
+
+## :earth_americas: REMOTE ACCESS
+
+**GuppyFLO** is a lightweight self-hosted service that allows remote management via TCP Proxy using Moonraker and Tailscale.
+
+To remotely access your machine, follow these steps:
+
+- In the SSH command prompt window, enter the following command to start installation of **GuppyFLO**:
+
+  ```
+  sudo ./guppyflo/guppyflo.sh
+  ```
+
+- Type `1` then `Enter`:
+
+  <img width="720" src="https://github.com/user-attachments/assets/0527c5fe-2398-402f-8eb1-a55a39329370">
+
+- After installation you get this:
+
+  <img width="720" src="https://github.com/user-attachments/assets/6a6168f8-0f68-40af-84ec-c87addb51a19">
+
+- Then go to this address to connect to your **Tailscale** account or create one: [https://login.tailscale.com/start](https://login.tailscale.com/start)
+
+- Once logged in, go to this address and enable the `MagicDNS` feature: [https://login.tailscale.com/admin/dns](https://login.tailscale.com/admin/dns)
+
+  <img width="720" src="https://github.com/user-attachments/assets/44ed45fb-f292-4274-acad-5cdafe384232">
+
+- You can now connect your printer to your Tailscale account by going to the address given in **step 3** and clicking the `Connect` button:
+
+  <img width="552" alt="04" src="https://github.com/user-attachments/assets/6c7045c6-cf8f-441c-81f6-22c6ff6cb054">
+
+- On your **Tailscale** dashboard you can now see your connected printer:
+
+  <img width="1000" src="https://github.com/user-attachments/assets/126dd8dc-c708-4e12-8423-981509ed5068">
+
+- You can change the name of the printer (the name corresponds to the url you will access to connect remotely):
+
+  <img width="1000" src="https://github.com/user-attachments/assets/356e5ada-ede1-4d34-9afb-ae59161e1cc3">
+
+- Disable `Auto-generate from OS hostname`, enter the desired name and click on `Update name` button:
+
+  <img width="502" src="https://github.com/user-attachments/assets/5e739b8e-7d61-4831-b4b6-4b988b11831b">
+
+- Now install the **Tailscale** client on the device from which you want to access your printer by going to this address: [https://tailscale.com/download](https://tailscale.com/download)
+
+- Sign-in and connect your client to your **Tailscale** account (here I use my mobile):
+
+  <img width="350" src="https://github.com/user-attachments/assets/2f82931a-562c-4f33-bb3f-93749c0aa90a">
+
+- You can now remotely connect to your printer with the following addresses:
+
+    You can access to **Mainsail** with `http://gyppyflo/` (by default) or with your custom hostname, here: `http://flsun-s1/`.<br>
+    You can access to **Fluidd** with `http://guppyflo:81/` (by default) or with your custom hostname, here: `http://flsun-s1:81/`.
+
+  <img width="350" src="https://github.com/user-attachments/assets/fd6ae6d7-a659-410c-9af3-146bd4c44894"> <img width="350" src="https://github.com/user-attachments/assets/b50ee302-ee51-43c5-8c13-91ae01e743f4">
+
+- If you want to disable **GuppyFLO**, run the installer again and type `2` then `Enter`.
 
 <br />
 
