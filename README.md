@@ -18,7 +18,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   -	KlipperScreen (latest build with modifications for S1 support)<br />
   -	Mainsail (latest build without modification)<br />
   -	Moonraker Timelapse<br />
-  -	MJPG-Streamer (same as stock) or µStreamer (lightweight and very quick server)<br />
+  -	MJPG-Streamer (latest build)<br />
   -	Preconfigured Web interfaces<br />
   -	Improved configuration files with interactive macros<br />
   -	Hostname based on MAC address<br />
