@@ -68,6 +68,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 	- Updated Klipper configuration files.
 	- Updated Web interface configuration files.
 	- Integration of FLSUN Gcodes files (Slicer displayed is OrcaSlicer just to have support for info and thumbnails but these are the original Gcodes).
+   	- Fixed screen brightness.
 
 - **KlipperScreen:**
 	- Fixed screen brightness after reboot.
