@@ -317,7 +317,8 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 -	Once connected, on the left part of the window you have access to the folders and files of your printer and on the right part to the SSH command prompt window:
 
-    <img width="900" src="https://github.com/user-attachments/assets/8864f881-d30a-4165-b6e1-8bfa0b56cb54">
+    <img width="900" src="https://github.com/user-attachments/assets/6e32678c-c170-418e-91e4-621126322885"><
+
 
 <br />
  
