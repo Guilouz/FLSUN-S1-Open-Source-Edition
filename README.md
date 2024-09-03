@@ -57,6 +57,14 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ## :clipboard: CHANGELOGS
 
+**03/09/2024:**
+
+- **KlipperScreen:**
+	- Improved `Unload` panel:
+   
+	  <img width="700" src="https://github.com/user-attachments/assets/04664eee-fa77-47d2-a6d3-7095ba8bb5fa">
+
+
 **01/09/2024:**
 
 - **New FLSUN OS image version 1.1:**
