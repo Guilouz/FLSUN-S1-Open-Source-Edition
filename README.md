@@ -62,7 +62,8 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - **KlipperScreen:**
 	- Improved `Unload` panel:
    
-	  <img width="700" src="https://github.com/user-attachments/assets/04664eee-fa77-47d2-a6d3-7095ba8bb5fa">
+	  <img width="700" src="https://github.com/user-attachments/assets/8eb08421-0908-4f00-962e-e4929771085e">
+
 
 
 **01/09/2024:**
