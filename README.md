@@ -167,6 +167,10 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
     <img width="600" src="https://github.com/user-attachments/assets/b2d77b6d-a8fe-4b71-b2ab-041550fd22ca">
 
+- **Unload Panel**
+
+    <img width="600" src="https://github.com/user-attachments/assets/8eb08421-0908-4f00-962e-e4929771085e">
+
 - **Print Menu**
 
     <img width="600" src="https://github.com/user-attachments/assets/eed3b0e3-35bc-4bb7-84ec-f649f0b6abfa">
