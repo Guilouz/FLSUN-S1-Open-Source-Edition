@@ -13,16 +13,16 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
 
 **What's included:**
 
-  -	Moonraker (latest build without modification)<br />
-  -	Klipper (latest build with modifications for S1 support<b>*</b>)<br />
-  -	KlipperScreen (latest build with modifications for S1 support)<br />
-  -	Mainsail (latest build without modification)<br />
-  -	Moonraker Timelapse<br />
-  -	MJPG-Streamer (latest build)<br />
-  -	Preconfigured Web interfaces<br />
-  -	Improved configuration files with interactive macros<br />
-  -	Hostname based on MAC address<br />
-  -	Automatic resizing of available space on microSD card<br />
+  - Moonraker (latest build without modification)<br />
+  - Klipper (latest build with modifications for S1 support<b>*</b>)<br />
+  - KlipperScreen (latest build with modifications for S1 support)<br />
+  - Mainsail (latest build without modification)<br />
+  - Moonraker Timelapse<br />
+  - MJPG-Streamer (latest build)<br />
+  - Preconfigured Web interfaces<br />
+  - Improved configuration files with interactive macros<br />
+  - Hostname based on MAC address<br />
+  - Automatic resizing of available space on microSD card<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
@@ -32,21 +32,22 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ### TABLE OF CONTENTS:
 
--	:clipboard: [CHANGELOGS](#clipboard-changelogs)
--	:stars: [SCREENSHOTS](#stars-screenshots)
--	:memo: [PREREQUISITES](#memo-prerequisites)
+- :clipboard: [CHANGELOGS](#clipboard-changelogs)
+- :stars: [SCREENSHOTS](#stars-screenshots)
+- :memo: [PREREQUISITES](#memo-prerequisites)
 - :floppy_disk: [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
 - :floppy_disk: [MICROSD PREPARATION TO FLASH MOTHERBOARD FIRMWARE](#floppy_disk-microsd-preparation-to-flash-motherboard-firmware)
 - :zap: [FLASH MOTHERBOARD FIRMWARE](#zap-flash-motherboard-firmware)
--	:wrench: [INSERTING MICROSD CARD FOR FLSUN OS](#wrench-inserting-microsd-card-for-flsun-os)
--	:electric_plug: [FIRST BOOT](#electric_plug-first-boot)
--	:link: [SSH CONNECTION](#link-ssh-connection)
--	:globe_with_meridians: [WEB INTERFACES](#globe_with_meridians-web-interfaces)
--	:camera: [ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
--	:triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
--	:movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
--	:clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
--	:earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
+- :wrench: [INSERTING MICROSD CARD FOR FLSUN OS](#wrench-inserting-microsd-card-for-flsun-os)
+- :electric_plug: [FIRST BOOT](#electric_plug-first-boot)
+- :link: [SSH CONNECTION](#link-ssh-connection)
+- :globe_with_meridians: [WEB INTERFACES](#globe_with_meridians-web-interfaces)
+- :camera: [ENABLE CAMERA SETTINGS MACROS](#camera-enable-camera-settings-macros)
+- :triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
+- :movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
+- :clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
+- :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
+- :bulb: [TIPS](#bulb-tips)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -569,6 +570,30 @@ To remotely access your machine, follow these steps:
   <img width="350" src="https://github.com/user-attachments/assets/fd6ae6d7-a659-410c-9af3-146bd4c44894"> <img width="350" src="https://github.com/user-attachments/assets/b50ee302-ee51-43c5-8c13-91ae01e743f4">
 
 - If you want to disable **GuppyFLO**, run the installer again and type `2` then `Enter`.
+
+<br />
+
+## :bulb: TIPS
+
+You can control the short press of the power button (right of the screen).
+
+- Open `macros.cfg` file:
+
+  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
+  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+
+- Add this macro by replacing the gcode command with whatever you want to run when you short press the power button:
+
+  ```
+  [gcode_macro PWR_KEY]
+  description: Short press for power button
+  gcode:
+    M117 Short Press done!
+  ```
+
+- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+
+**Note:** By default, a long press on the power button power off the system.
 
 <br />
 
