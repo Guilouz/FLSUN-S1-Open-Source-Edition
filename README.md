@@ -575,6 +575,33 @@ To remotely access your machine, follow these steps:
 
 ## :bulb: TIPS
 
+### Pressure Advance
+
+You can define Pressure Advance settings.
+
+- Open `printer.cfg` file:
+
+  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
+  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+
+- Search this line in `Extruder & Driver Settings` section and replace the value:
+
+  ```
+  pressure_advance: 0.001
+  ```
+
+  The value of Pressure Advance can be defined as follows:
+
+  - **Value `=` 0** → Pressure Advance is disabled <br />
+  - **Value `<=` 0.002** → Pressure Advance is automatically adjusted by the firmware depending of the speed <br />
+  - **Value `>` 0.002** → The defined value is used <br />
+
+- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+
+<br />
+
+### Power Key
+
 You can control the short press of the power button (right of the screen).
 
 - Open `macros.cfg` file:
