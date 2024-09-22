@@ -60,14 +60,20 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 **03/09/2024:**
 
+<details>
+<summary>Show / Hide</summary>
+
 - **KlipperScreen:**
 	- Improved `Unload` panel:
    
 	  <img width="700" src="https://github.com/user-attachments/assets/8eb08421-0908-4f00-962e-e4929771085e">
 
-
+</details>
 
 **01/09/2024:**
+
+<details>
+<summary>Show / Hide</summary>
 
 - **New FLSUN OS image version 1.1:**
 	- Updated kernel to restore CPU frequency to 1.5GHz instead of 1GHz (50% increase in performance).
@@ -83,6 +89,8 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - **KlipperScreen:**
 	- Fixed screen brightness after reboot.
 	- Improved UI.
+
+</details>
 
 **30/08/2024:**
 
