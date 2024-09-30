@@ -264,6 +264,36 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 - Copy `Robin_nano35.bin` file to the root of the microSD card, then you can remove it from your computer.
 
+<br /> 
+
+**You can also compile your own firmware:**
+
+- In the SSH command prompt window (see :link: [SSH CONNECTION](#link-ssh-connection) section), enter the following commands (one at a time):
+    ```
+    cd ~/klipper/
+    ```
+    ```
+    make menuconfig
+    ```
+- Move on the menu with the `Up` and `Down` keys of your keyboard and validate the selected item with the `Enter` key and select these settings:
+
+  <img width="800" src="https://github.com/user-attachments/assets/9a97ff0f-288c-41e2-a731-26ed96ff9882">
+
+- Then on your keyboard press the `Q` key then `Y` to save configuration.
+
+- Enter the following commands to compile firmware (one at a time):
+    ```
+    make clean
+    ```
+    ```
+    make
+    ```
+- Then this one to convert firmware:
+    ```
+    ./scripts/update_mks_robin.py out/klipper.bin out/Robin_nano35.bin
+    ```
+- Get the firmware named `Robin_nano35.bin` in `/home/pi/klipper/out/` directory (on the left panel of **MobaXterm**, right click on the file and select `Download`).
+
 <br />
 
 ## :zap: FLASH MOTHERBOARD FIRMWARE
