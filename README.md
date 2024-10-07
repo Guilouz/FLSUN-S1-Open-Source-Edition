@@ -23,7 +23,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Improved configuration files<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available space on microSD card<br />
-  - Remote access support (easy installation)<br />
+  - Remote access support via TCP Proxy (easy installation)<br />
   - Spoolman support to easily install, update or remove it<br />
   - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
 
@@ -50,6 +50,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - :movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
 - :clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
 - :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
+- :cd: [SPOOLMAN SUPPORT](#cd-spoolman-support)
 - :bulb: [TIPS](#bulb-tips)
 - :star: [CREDITS](#star-credits)
 
@@ -611,6 +612,12 @@ To remotely access your machine, follow these steps:
   <img width="350" src="https://github.com/user-attachments/assets/fd6ae6d7-a659-410c-9af3-146bd4c44894"> <img width="350" src="https://github.com/user-attachments/assets/b50ee302-ee51-43c5-8c13-91ae01e743f4">
 
 - If you want to disable **GuppyFLO**, run the installer again and type `2` then `Enter`.
+
+<br />
+
+## :cd: SPOOLMAN SUPPORT
+
+Will be available in next image version.
 
 <br />
 
