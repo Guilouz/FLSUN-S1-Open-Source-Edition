@@ -17,14 +17,14 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Klipper (latest build with modifications for S1 support<b>*</b>)<br />
   - KlipperScreen (latest build with modifications for S1 support)<br />
   - Mainsail (latest build without modification)<br />
-  - Moonraker Timelapse<br />
   - MJPG-Streamer (latest build)<br />
+  - Moonraker Timelapse support<br />
   - Preconfigured Web interfaces<br />
   - Improved configuration files<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available space on microSD card<br />
-  - Remote access support<br />
-  - Spoolman support<br />
+  - Remote access support (easy installation)<br />
+  - Spoolman support to easily install, update or remove it<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
