@@ -25,6 +25,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Automatic resizing of available space on microSD card<br />
   - Remote access support (easy installation)<br />
   - Spoolman support to easily install, update or remove it<br />
+  - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
