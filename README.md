@@ -20,9 +20,11 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Moonraker Timelapse<br />
   - MJPG-Streamer (latest build)<br />
   - Preconfigured Web interfaces<br />
-  - Improved configuration files with interactive macros<br />
+  - Improved configuration files<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available space on microSD card<br />
+  - Remote access support<br />
+  - Spoolman support<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
