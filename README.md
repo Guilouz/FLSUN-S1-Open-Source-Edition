@@ -49,9 +49,10 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - :triangular_ruler: [XY DIMENSION CALIBRATION](#triangular_ruler-xy-dimension-calibration)
 - :movie_camera: [USE TIMELAPSE](#movie_camera-use-timelapse)
 - :clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
+- :bulb: [TIPS](#bulb-tips)
 - :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
 - :cd: [SPOOLMAN SUPPORT](#cd-spoolman-support)
-- :bulb: [TIPS](#bulb-tips)
+- :black_square_button: [BIGTREETECH MMB CUBIC](#black_square_button-bigtreetech-mmb-cubic)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -556,6 +557,57 @@ To change time zone, follow these instructions:
 
 <br />
 
+## :bulb: TIPS
+
+### Pressure Advance
+
+You can define Pressure Advance settings.
+
+- Open `printer.cfg` file:
+
+  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
+  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+
+- Search this line in `Extruder & Driver Settings` section and replace the value:
+
+  ```
+  pressure_advance: 0.001
+  ```
+
+  The value of Pressure Advance can be defined as follows:
+
+  - **Value `=` 0** → Pressure Advance is disabled <br />
+  - **Value `<=` 0.002** → Pressure Advance is automatically adjusted by the firmware depending of the speed <br />
+  - **Value `>` 0.002** → The defined value is used <br />
+
+- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+
+<br />
+
+### Power Key
+
+You can control the short press of the power button (right of the screen).
+
+- Open `macros.cfg` file:
+
+  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
+  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+
+- Add this macro by replacing the gcode command with whatever you want to run when you short press the power button:
+
+  ```
+  [gcode_macro PWR_KEY]
+  description: Short press for power button
+  gcode:
+    M117 Short Press done!
+  ```
+
+- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+
+**Note:** By default, a long press on the power button power off the system.
+
+<br />
+
 ## :earth_americas: REMOTE ACCESS
 
 **GuppyFLO** is a lightweight self-hosted service that allows remote management via TCP Proxy using Moonraker and Tailscale.
@@ -621,56 +673,9 @@ Will be available in next image version.
 
 <br />
 
-## :bulb: TIPS
+## :black_square_button: BIGTREETECH MMB CUBIC
 
-### Pressure Advance
-
-You can define Pressure Advance settings.
-
-- Open `printer.cfg` file:
-
-  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
-  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
-
-- Search this line in `Extruder & Driver Settings` section and replace the value:
-
-  ```
-  pressure_advance: 0.001
-  ```
-
-  The value of Pressure Advance can be defined as follows:
-
-  - **Value `=` 0** → Pressure Advance is disabled <br />
-  - **Value `<=` 0.002** → Pressure Advance is automatically adjusted by the firmware depending of the speed <br />
-  - **Value `>` 0.002** → The defined value is used <br />
-
-- Once done, click on `SAVE & RESTART` button at the top right to save the file.
-
-<br />
-
-### Power Key
-
-You can control the short press of the power button (right of the screen).
-
-- Open `macros.cfg` file:
-
-  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
-  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
-
-- Add this macro by replacing the gcode command with whatever you want to run when you short press the power button:
-
-  ```
-  [gcode_macro PWR_KEY]
-  description: Short press for power button
-  gcode:
-    M117 Short Press done!
-  ```
-
-- Once done, click on `SAVE & RESTART` button at the top right to save the file.
-
-**Note:** By default, a long press on the power button power off the system.
-
-<br />
+Will be available in next image version.
 
 ## :star: CREDITS
 
