@@ -51,7 +51,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - :clock130: [UPDATE TIME ZONE](#clock130-update-time-zone)
 - :bulb: [TIPS](#bulb-tips)
 - :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
-- :cd: [SPOOLMAN SUPPORT](#cd-spoolman-support)
+- :cd: [SPOOLMAN](#cd-spoolman)
 - :black_square_button: [BIGTREETECH MMB CUBIC](#black_square_button-bigtreetech-mmb-cubic)
 - :star: [CREDITS](#star-credits)
 
@@ -667,7 +667,7 @@ To remotely access your machine, follow these steps:
 
 <br />
 
-## :cd: SPOOLMAN SUPPORT
+## :cd: SPOOLMAN
 
 Will be available in next image version.
 
