@@ -3,11 +3,13 @@ Closed Beta Test
 
 <img width="950" src="https://github.com/user-attachments/assets/62cdfaf2-b0c6-4033-b0c9-dfcff567bf11">
 
-<br /><br />
+<br /><br/>
 
-This **FLSUN-OS** is an Open Source version uses the microSD port of the core board to boot on a new OS. Which means that the original OS is not modified. It’s a kind of dual boot, a simple removal of the microSD card allows to boot on the original OS.
+**FLSUN-OS** is an Open Source version for **FLSUN S1** that uses the microSD port of the core board to boot on a new OS.
 
-This new OS is based on Debian 12 Bookworm and is ready to use.
+Which means that the Stock OS is not modified. It’s a kind of dual boot, a simple removal of the microSD card allows to boot on the Stock OS.
+
+This new OS is based on ***Debian 12 Bookworm*** and is ready to use.
 
 Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [Geekbench.com](https://browser.geekbench.com/v5/cpu/compare/22823940?baseline=22823878)
 
@@ -26,6 +28,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Remote access support via TCP Proxy (easy installation)<br />
   - Spoolman support to easily install, update or remove it<br />
   - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
+  - Restoration of SSH access from Stock OS<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
@@ -35,7 +38,6 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 ### TABLE OF CONTENTS:
 
-- :clipboard: [CHANGELOGS](#clipboard-changelogs)
 - :stars: [SCREENSHOTS](#stars-screenshots)
 - :memo: [PREREQUISITES](#memo-prerequisites)
 - :floppy_disk: [MICROSD PREPARATION FOR FLSUN OS](#floppy_disk-microsd-preparation-for-flsun-os)
@@ -53,109 +55,12 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
 - :cd: [SPOOLMAN](#cd-spoolman)
 - :black_square_button: [BIGTREETECH MMB CUBIC](#black_square_button-bigtreetech-mmb-cubic)
+- :no_entry_sign: [RESTORE SSH ACCESS FROM STOCK OS](#no_entry_sign-restore-ssh-access-from-stock-os)
 - :star: [CREDITS](#star-credits)
 
 <br />
 
 **Discussions about this project: [Here](https://github.com/Guilouz/FLSUN-Open-Source-Edition/discussions)**
-
-<br />
-
-## :clipboard: CHANGELOGS
-
-**03/09/2024:**
-
-<details>
-<summary>Show / Hide</summary>
-
-- **KlipperScreen:**
-	- Improved `Unload` panel:
-   
-	  <img width="700" src="https://github.com/user-attachments/assets/8eb08421-0908-4f00-962e-e4929771085e">
-
-</details>
-
-**01/09/2024:**
-
-<details>
-<summary>Show / Hide</summary>
-
-- **New FLSUN OS image version 1.1:**
-	- Updated kernel to restore CPU frequency to 1.5GHz instead of 1GHz (50% increase in performance).
-	- Disabled Wi-Fi Power Management, this frees up bandwidth, and increases camera fps.
-	- Integration of GuppyFLO, a lightweight self-hosted service that allows remote management via TCP Proxy using Moonraker and Tailscale. See [REMOTE ACCESS](#earth_americas-remote-access) section.
-	- Replaced hostname FLSUN-OS-XXXX with FLSUN-S1-XXXX (still based on MAC address).
-	- Improved SSH header.
-	- Updated Klipper configuration files.
-	- Updated Web interface configuration files.
-	- Integration of FLSUN Gcodes files (Slicer displayed is OrcaSlicer just to have support for info and thumbnails but these are the original Gcodes).
-   	- Fixed screen brightness.
-
-- **KlipperScreen:**
-	- Fixed screen brightness after reboot.
-	- Improved UI.
-
-</details>
-
-**30/08/2024:**
-
-<details>
-<summary>Show / Hide</summary>
-
-- **Klipper configurations files:**
-
-  - Fixed macros for `M600`.
-  - Minor fixes.
-
-  **Note: Make sure you use latest Klipper configuration files.**
-
-</details>
-
-**29/08/2024:**
-
-<details>
-<summary>Show / Hide</summary>
-
-- **KlipperScreen**:
-
-  - Improved retrieval of drying box information (improves fluidity). 
-  - Added prompt for filament unloading process.
-  - Now possible to load or unload filament at the desired temperature.
-  - Improved UI.
-
-- **Klipper configurations files:**
-
-  - Improved `UNLOAD_FILAMENT` & `UNLOAD_FILAMENT` macros.
-  - Increased motion sensor detection length.
-  - Disabled extruder motor when calibrating resonances.
-  - Added settings for sensors in KlipperScreen.conf.
-  - Minor fixes.
-
-  **Note: Make sure you use latest Klipper configuration files.**
-
-</details>
-
-**24/08/2024:**
-
-<details>
-<summary>Show / Hide</summary>
-
-- **Klipper**:
-
-  - Added support for XY Dimension Calibration with `M101` command:
-    - **M101 S0** → Reset XY Offsets
-    - **M101 X**zz **T**zz → Define X Offset (X → Measured Size - T → Target Size)
-    - **M101 Y**zz **T**zz → Define Y Offset (Y → Measured Size - T → Target Size)
-
-- **Klipper configurations files:**
-  
-  - Updated to include `CALIBRATION_X_OFFSET`, `CALIBRATION_Y_OFFSET` and `CALIBRATION_RESET_XY_OFFSETS` macros
-
-- **KlipperScreen**:
-
-  - UI now show Spool Weight in grams (setting added to display it in percentage).
-
-</details>
 
 <br />
 
@@ -676,6 +581,14 @@ Will be available in next image version.
 ## :black_square_button: BIGTREETECH MMB CUBIC
 
 Will be available in next image version.
+
+<br />
+
+## :no_entry_sign: RESTORE SSH ACCESS FROM STOCK OS
+
+Will be available in next image version.
+
+<br />
 
 ## :star: CREDITS
 
