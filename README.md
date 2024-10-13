@@ -114,7 +114,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 ## :memo: PREREQUISITES
 
 -	microSD card with small capacity (e.g. 128MB or 256MB) to flash motherboard firmware
--	microSD card with a minimum size of 16GB for FLSUN OS (I recommend SanDisk Extreme PRO)
+-	microSD card with a minimum size of 16GB for FLSUN OS (I recommend _SanDisk Extreme PRO_)
 
 <br />
 
@@ -128,32 +128,32 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 
 -	Start **Raspberry Pi Imager**.
 
--	Click on `CHOOSE OS` button:
+-	Click on **`CHOOSE OS`** button:
 
     <img width="600" src="https://github.com/user-attachments/assets/8ddad7c1-3669-4961-be57-f44ce926668d">
 
 
--	Click on `Use Custom` button and select **FLSUN OS** image file (with the extension **.gz**):
+-	Click on **`Use Custom`** button and select **FLSUN OS** image file (with the extension **.gz**):
 
     <img width="600" src="https://github.com/user-attachments/assets/7761c54f-235f-486e-87f0-4ad6bc6b8ac2">
 
 
--	Click on `CHOOSE STORAGE` button and select your microSD card storage:
+-	Click on **`CHOOSE STORAGE`** button and select your microSD card storage:
 
     <img width="600" src="https://github.com/user-attachments/assets/8c5b41aa-d481-48a8-8d2e-a5a215ca5f90">
 
 
--	Click on `NEXT` and select your microSD card storage:
+-	Click on **`NEXT`** and select your microSD card storage:
 
     <img width="600" src="https://github.com/user-attachments/assets/a0acab03-7da4-4224-8196-001f607189ac">
 
 
--	When asked if you would like to apply OS customisation settings, click on `NO` button:
+-	When asked if you would like to apply OS customisation settings, click on **`NO`** button:
 
     <img width="600" src="https://github.com/user-attachments/assets/b7cb0011-a1b6-4201-8fa7-e92bea6f9933">
 
 
--	Then confirm by clicking on `YES` button:
+-	Then confirm by clicking on **`YES`** button:
 
     <img width="600" src="https://github.com/user-attachments/assets/86ca4c99-42f4-4dfc-86ba-662b2cb383fb">
 
@@ -172,7 +172,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 - Download the motherboad firmware: [Robin_nano35.bin for Open Source Edition](https://github.com/Guilouz/FLSUN-Open-Source-Edition/raw/main/Motherboard%20Firmwares/Open%20Source%20Edition/Robin_nano35.bin)
 
-- Copy `Robin_nano35.bin` file to the root of the microSD card, then you can remove it from your computer.
+- Copy **`Robin_nano35.bin`** file to the root of the microSD card, then you can remove it from your computer.
 
 <br /> 
 
@@ -185,11 +185,11 @@ Motherboard firmware need to be updated to support latest Klipper version.
     ```
     make menuconfig
     ```
-- Move on the menu with the `Up` and `Down` keys of your keyboard and validate the selected item with the `Enter` key and select these settings:
+- Move on the menu with the **`Up`** and **`Down`** keys of your keyboard and validate the selected item with the **`Enter`** key and select these settings:
 
   <img width="800" src="https://github.com/user-attachments/assets/9a97ff0f-288c-41e2-a731-26ed96ff9882">
 
-- Then on your keyboard press the `Q` key then `Y` to save configuration.
+- Then on your keyboard press the **`Q`** key then **`Y`** to save configuration.
 
 - Enter the following commands to compile firmware (one at a time):
     ```
@@ -202,7 +202,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
     ```
     ./scripts/update_mks_robin.py out/klipper.bin out/Robin_nano35.bin
     ```
-- Get the firmware named `Robin_nano35.bin` in `/home/pi/klipper/out/` directory (on the left panel of **MobaXterm**, right click on the file and select `Download`).
+- Get the firmware named **`Robin_nano35.bin`** in **`/home/pi/klipper/out/`** directory (on the left panel of **MobaXterm**, right click on the file and select `Download`).
 
 <br />
 
@@ -218,7 +218,7 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 - Turn on the printer and wait a few seconds, the flash will be done automatically.
 
-- Installation only takes a few seconds, to verify that the firmware has been successfully installed, the file on the microSD card must have been renamed to `ROBIN_NANO35.BIN.CUR`.
+- Installation only takes a few seconds, to verify that the firmware has been successfully installed, the file on the microSD card must have been renamed to **`ROBIN_NANO35.BIN.CUR`**.
 
 - Turn off the printer, you can remove the microSD card and screw the printer top cover back on.
 
@@ -268,13 +268,13 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 -	Once you are on the **KlipperScreen** interface, wait for **Moonraker** and **Klipper** to connect (if not click `Retry` button). The LEDs on the left side of the screen should light up white as soon as the connection is established.
 
--	Once connected, click on `Configurations` → `Network` and connect to your WiFi network. Your IP address should be displayed in the top right corner.
+-	Once connected, click on **`Configurations`** → **`Network`** and connect to your WiFi network. Your IP address should be displayed in the top right corner.
 
 - Then, restart the printer.
 
 -	**:bangbang: WARNING:** Don't forget to calibrate your printer before starting a print. 
 
- 	To do this, go to the `Configurations` → `Calibrations` menu.
+ 	To do this, go to the **`Configurations`** → **`Calibrations`** menu.
 
     -	**Motors Calibration** → To calibrate the closed loop of the motors
     -	**Z Offset Calibration** → To adjust Z Offset if needed
@@ -294,26 +294,25 @@ Motherboard firmware need to be updated to support latest Klipper version.
 
 -	Download and install the **MobaXterm** software: [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
 
--	Launch it then click on the `Session` icon:
+-	Launch it then click on the **`Session`** icon:
 
     <img width="900" src="https://github.com/user-attachments/assets/e8a055af-14de-4018-927d-153fb9051f36">
 
--	Then on then `SSH` icon:
+-	Then on then **`SSH`** icon:
 
     <img width="900" src="https://github.com/user-attachments/assets/25c3f848-826f-4394-b0c5-ab8a68de95ad">
  
--	Enter the IP address of your printer in the `Remote Host` field, check the `Specify username` box and enter the username **pi** in the field then click on `OK`:
+-	Enter the IP address of your printer in the **`Remote Host`** field, check the **`Specify username`** box and enter the username **`pi`** in the field then click on **`OK`**:
 
     <img width="900" src="https://github.com/user-attachments/assets/2f0eaaf8-4084-43be-840c-4ee6cb9ced63">
 
--	On the new displayed window, enter the password **flsun** (it's not displayed when typing, this is normal).
+-	On the new displayed window, enter the password **`flsun`** (it's not displayed when typing, this is normal).
 
 -	An authorization window will appear, authorize it. It's also possible that another window asking you to change the password will appear, ignore it.
 
 -	Once connected, on the left part of the window you have access to the folders and files of your printer and on the right part to the SSH command prompt window:
 
     <img width="900" src="https://github.com/user-attachments/assets/6e32678c-c170-418e-91e4-621126322885"><
-
 
 <br />
  
@@ -347,14 +346,14 @@ By default, **Mainsail** is installed on port 80. You can also install **Fluidd*
  
 -	**To keep Mainsail and install Fluidd on port 81:**
 
-    -	Enter **1** for Install menu → **4** for Fluidd → Enter **81** for port number → Enter **N** to not install the recommended macros
+    -	Enter **`1`** for Install menu → **`4`** for Fluidd → Enter **`81`** for port number → Enter **`N`** to not install the recommended macros
 
     You can access to **Mainsail** with `http://xxx.xxx.xx.xxx/` (replacing **xxx.xxx.xxx.xxx** by your local IP address).<br>
     You can access to **Fluidd** with `http://xxx.xxx.xx.xxx:81/` (replacing **xxx.xxx.xxx.xxx** by your local IP address).
 
 -	**To remove Mainsail and install Fluidd on port 80:**
 
-    -	Enter **3** for Remove menu → **3** for Mainsail → **B** to go back → **1** for Install menu → **4** for Fluidd → Enter **N** to not install the recommended macros
+    -	Enter **`3`** for Remove menu → **`3`** for Mainsail → **`B`** to go back → **`1`** for Install menu → **`4`** for Fluidd → Enter **`N`** to not install the recommended macros
 
     You can access to **Fluidd** with `http://xxx.xxx.xx.xxx/` (replacing **xxx.xxx.xxx.xxx** by your local IP address).
 
@@ -366,13 +365,13 @@ Camera Settings macros are not enabled by default. To enable them:
 
 - Go to your **Mainsail** Web interface then click on `MACHINE` tab.
 
-- Then, open the `printer.cfg` file and remove the first **#** symbol at the following line:
+- Then, open the **`printer.cfg`** file and remove the first **`#`** symbol at the following line:
 
     ```
     #[include camera_settings.cfg] # Remove comment to use macros to control camera settings
     ```
 
-- Click on `SAVE & RESTART` at the top right to save the file.
+- Click on **`SAVE & RESTART`** at the top right to save the file.
 
 <br />
 
@@ -390,7 +389,7 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 
 - If you notice a significant deviation in the measured dimensions, it will therefore be necessary to apply a correction.
 
-- Go to your **Mainsail** Web interface then select the `CONSOLE` tab on the left side.
+- Go to your **Mainsail** Web interface then select the **`CONSOLE`** tab on the left side.
 
 - Enter this command to reset X/Y Offsets if one of them is already applied:
 
@@ -400,7 +399,7 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 
 - Wait for **Klipper** to restart.
 
-- If you notice a deviation in X, enter this command by replacing `zz`  by your measured value in millimeters in X (Note: T is the expected value, here 20mm):
+- If you notice a deviation in X, enter this command by replacing **`zz`** by your measured value in millimeters in X (Note: T is the expected value, here 20mm):
 
   ```
   M101 Xzz T20
@@ -408,7 +407,7 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 
 - Wait for **Klipper** to restart.
 
-- If you notice a deviation in Y, enter this command by replacing `zz`  by your measured value in millimeters in Y (Note: T is the expected value, here 20mm):
+- If you notice a deviation in Y, enter this command by replacing **`zz`** by your measured value in millimeters in Y (Note: T is the expected value, here 20mm):
  
   ```
   M101 Yzz T20
@@ -416,21 +415,21 @@ This can be useful if the accuracy of your dimensions is not acceptable.
 
 - Wait for **Klipper** to restart.
 
-- Correction is now applied in your `printer.cfg` file. You can reprint your model to see if the accuracy of your dimensions is now acceptable.
+- Correction is now applied in your **`printer.cfg`** file. You can reprint your model to see if the accuracy of your dimensions is now acceptable.
 
 <br />
 
 ## :movie_camera: USE TIMELAPSE
 
-Timelapse feature is enabled by default but to use the **layermacro** mode which grabs a frame every layer change you need to add the `TIMELAPSE_TAKE_FRAME` macro to your slicer so that it is added to the Gcode before or after a layer change.
+Timelapse feature is enabled by default but to use the **layermacro** mode which grabs a frame every layer change you need to add the **`TIMELAPSE_TAKE_FRAME`** macro to your slicer so that it is added to the Gcode before or after a layer change.
 
 - **OrcaSlicer:**
 
-    Go to Printer Settings → Machine G-code → Before layer change G-code → Add **TIMELAPSE_TAKE_FRAME**
+    Go to Printer Settings → Machine G-code → Before layer change G-code → Add **`TIMELAPSE_TAKE_FRAME`**
 
 - **FlsunSlicer / PrusaSlicer / SuperSlicer:**
 
-    Go to Printer Settings → Custom G-code → Before layer change Gcode → Add **TIMELAPSE_TAKE_FRAME**
+    Go to Printer Settings → Custom G-code → Before layer change Gcode → Add **`TIMELAPSE_TAKE_FRAME`**
 
 <br />
 
@@ -450,9 +449,9 @@ To change time zone, follow these instructions:
   sudo dpkg-reconfigure tzdata
   ```
 
-- On the page that appears, select your geographic area from the list and press `Enter`.
+- On the page that appears, select your geographic area from the list and press **`Enter`**.
 
-- Then select your time zone in the new list and press `Enter`.
+- Then select your time zone in the new list and press **`Enter`**.
 
 - You can then verify that the change has been taken into account by retyping this command:
   
@@ -468,12 +467,12 @@ To change time zone, follow these instructions:
 
 You can define Pressure Advance settings.
 
-- Open `printer.cfg` file:
+- Open **`printer.cfg`** file:
 
-  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
-  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+  - On **Mainsail** Web Interface go to **`MACHINE`** tab on the left side.
+  - On **Fluidd** Web Interface go to **`Configuration`** icon on the left side.
 
-- Search this line in `Extruder & Driver Settings` section and replace the value:
+- Search this line in **`Extruder & Driver Settings`** section and replace the value:
 
   ```
   pressure_advance: 0.001
@@ -485,7 +484,7 @@ You can define Pressure Advance settings.
   - **Value `<=` 0.002** → Pressure Advance is automatically adjusted by the firmware depending of the speed <br />
   - **Value `>` 0.002** → The defined value is used <br />
 
-- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
 
 <br />
 
@@ -493,10 +492,10 @@ You can define Pressure Advance settings.
 
 You can control the short press of the power button (right of the screen).
 
-- Open `macros.cfg` file:
+- Open **`macros.cfg`** file:
 
-  - On **Mainsail** Web Interface go to `Machine` tab on the left side.
-  - On **Fluidd** Web Interface go to `Configuration` icon on the left side.
+  - On **Mainsail** Web Interface go to **`MACHINE`** tab on the left side.
+  - On **Fluidd** Web Interface go to **`Configuration`** icon on the left side.
 
 - Add this macro by replacing the gcode command with whatever you want to run when you short press the power button:
 
@@ -507,7 +506,7 @@ You can control the short press of the power button (right of the screen).
     M117 Short Press done!
   ```
 
-- Once done, click on `SAVE & RESTART` button at the top right to save the file.
+- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
 
 **Note:** By default, a long press on the power button power off the system.
 
@@ -525,7 +524,7 @@ To remotely access your machine, follow these steps:
   sudo ./guppyflo/guppyflo.sh
   ```
 
-- Type `1` then `Enter`:
+- Type **`1`** then **`Enter`**:
 
   <img width="720" src="https://github.com/user-attachments/assets/0527c5fe-2398-402f-8eb1-a55a39329370">
 
@@ -535,11 +534,11 @@ To remotely access your machine, follow these steps:
 
 - Then go to this address to connect to your **Tailscale** account or create one: [https://login.tailscale.com/start](https://login.tailscale.com/start)
 
-- Once logged in, go to this address and enable the `MagicDNS` feature: [https://login.tailscale.com/admin/dns](https://login.tailscale.com/admin/dns)
+- Once logged in, go to this address and enable the **`MagicDNS`** feature: [https://login.tailscale.com/admin/dns](https://login.tailscale.com/admin/dns)
 
   <img width="720" src="https://github.com/user-attachments/assets/44ed45fb-f292-4274-acad-5cdafe384232">
 
-- You can now connect your printer to your Tailscale account by going to the address given in **step 3** and clicking the `Connect` button:
+- You can now connect your printer to your Tailscale account by going to the address given in **step 3** and clicking the **`Connect`** button:
 
   <img width="552" alt="04" src="https://github.com/user-attachments/assets/6c7045c6-cf8f-441c-81f6-22c6ff6cb054">
 
@@ -551,7 +550,7 @@ To remotely access your machine, follow these steps:
 
   <img width="1000" src="https://github.com/user-attachments/assets/356e5ada-ede1-4d34-9afb-ae59161e1cc3">
 
-- Disable `Auto-generate from OS hostname`, enter the desired name and click on `Update name` button:
+- Disable **`Auto-generate from OS hostname`**, enter the desired name and click on **`Update name`** button:
 
   <img width="502" src="https://github.com/user-attachments/assets/5e739b8e-7d61-4831-b4b6-4b988b11831b">
 
@@ -563,12 +562,12 @@ To remotely access your machine, follow these steps:
 
 - You can now remotely connect to your printer with the following addresses:
 
-    You can access to **Mainsail** with `http://gyppyflo/` (by default) or with your custom hostname, here: `http://flsun-s1/`.<br>
-    You can access to **Fluidd** with `http://guppyflo:81/` (by default) or with your custom hostname, here: `http://flsun-s1:81/`.
+    You can access to **Mainsail** with **`http://gyppyflo/`** (by default) or with your custom hostname, here: **`http://flsun-s1/`**.<br>
+    You can access to **Fluidd** with **`http://guppyflo:81/`** (by default) or with your custom hostname, here: **`http://flsun-s1:81/`**.
 
   <img width="350" src="https://github.com/user-attachments/assets/fd6ae6d7-a659-410c-9af3-146bd4c44894"> <img width="350" src="https://github.com/user-attachments/assets/b50ee302-ee51-43c5-8c13-91ae01e743f4">
 
-- If you want to disable **GuppyFLO**, run the installer again and type `2` then `Enter`.
+- If you want to disable **GuppyFLO**, run the installer again and type **`2`** then **`Enter`**.
 
 <br />
 
