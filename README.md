@@ -22,7 +22,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - MJPG-Streamer (latest build)<br />
   - Moonraker Timelapse support<br />
   - Preconfigured Web interfaces<br />
-  - Improved configuration files<br />
+  - Improved configuration files (M600 support, Drying Box from Web UI support, etc...)<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available space on microSD card<br />
   - Remote access support via TCP Proxy (easy installation)<br />
