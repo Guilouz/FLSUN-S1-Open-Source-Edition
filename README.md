@@ -29,10 +29,13 @@ Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [G
   - Spoolman support to easily install, update or remove it<br />
   - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
   - Restoration of SSH access from Stock OS<br />
+  - Improved Delta calibration function. More accurate and with denser coverage that allows better detection of variations of the bed or in the mechanics of the printer, which can improve print quality<br />
+  - Added support for Adaptive Bed Mesh before printing<br />
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
-<img width="700" src="https://github.com/user-attachments/assets/fc4dd3cd-576a-4edf-9dd9-cc90293d9f3b">
+<img width="700" src="https://github.com/user-attachments/assets/572d4bc8-7718-477d-849a-9b9db14c7e63">
+
 
 <br />
 
