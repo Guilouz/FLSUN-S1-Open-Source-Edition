@@ -11,7 +11,7 @@ Which means that the Stock OS is not modified. It’s a kind of dual boot, a sim
 
 This new OS is based on ***Debian 12 Bookworm*** and is ready to use.
 
-Benchmark comparison between **STOCK OS** (Board flsun) and our **FLSUN-OS**: [Geekbench.com](https://browser.geekbench.com/v5/cpu/compare/22823940?baseline=22823878)
+Benchmark comparison between **STOCK OS** (Board flsun) and **FLSUN-OS**: [Geekbench.com](https://browser.geekbench.com/v5/cpu/compare/22823940?baseline=22823878)
 
 **What's included:**
 
