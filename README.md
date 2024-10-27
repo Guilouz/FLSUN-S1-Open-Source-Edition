@@ -56,7 +56,7 @@ _<b>*</b> All AI features have been removed as they do not work as expected. Onl
 - :earth_americas: [REMOTE ACCESS](#earth_americas-remote-access)
 - :cd: [SPOOLMAN](#cd-spoolman)
 - :black_square_button: [BIGTREETECH MMB CUBIC](#black_square_button-bigtreetech-mmb-cubic)
-- :no_entry_sign: [RESTORE SSH ACCESS FROM STOCK OS](#no_entry_sign-restore-ssh-access-from-stock-os)
+- :no_entry_sign: [RESTORE SSH ACCESS FOR STOCK OS](#no_entry_sign-restore-ssh-access-for-stock-os)
 - :star: [CREDITS](#star-credits)
 
 <br />
@@ -584,7 +584,7 @@ Will be available in next image version.
 
 <br />
 
-## :no_entry_sign: RESTORE SSH ACCESS FROM STOCK OS
+## :no_entry_sign: RESTORE SSH ACCESS FOR STOCK OS
 
 Will be available in next image version.
 
