@@ -25,8 +25,8 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **FLSUN-OS**: [Geekb
   - Improved configuration files (M600 support, Drying Box from Web UI support, etc...)<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available storage space<br />
-  - Remote access support via TCP Proxy (easy installation)<br />
-  - Spoolman support to easily install, update or remove it<br />
+  - Remote access support via TCP Proxy<br />
+  - Spoolman support<br />
   - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
   - Restoration of SSH access for Stock OS<br />
 
