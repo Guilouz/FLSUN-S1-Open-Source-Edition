@@ -25,10 +25,18 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **FLSUN-OS**: [Geekb
   - Improved configuration files (M600 support, Drying Box from Web UI support, etc...)<br />
   - Hostname based on MAC address<br />
   - Automatic resizing of available storage space<br />
-  - Remote access support via TCP Proxy<br />
-  - Spoolman support<br />
-  - BigTreeTech MMB Cubic support to add chamber temperature sensor and Neopixels<br />
-  - Restoration of SSH access for Stock OS<br />
+  - BigTreeTech MMB Cubic support (Chamber Temperature Sensor and Neopixels)<br />
+  - Enhanced Delta Calibration support (More accurate and with denser coverage that allows better detection of variations of the bed or in the mechanics of the printer, which can improve print quality)<br />
+  - Bed Mesh Type before printing support (Full Bed Mesh, Adaptive Bed Mesh or No Mesh)<br />
+  - Easy Installer to facilitate installations and some actions with the simple **`flsun-installer`** command in SSH:<br />
+    - Install/Update/Remove Spoolman (Filament Spools Management)
+    - Install/Remove GuppyFLO (Remote Access via TCP Proxy)
+    - Backup/Restore Klipper configuration files
+    - Backup/Restore Moonraker database
+    - Delete cache and logs files
+    - Update Debian packages
+    - Restore Web-UI default settings
+    - Restore SSH access for Stock OS
 
 _<b>*</b> All AI features have been removed as they do not work as expected. Only Power Loss Recovery, FLSUN Input Shaper and XY Dimension Calibration features have been kept._
 
