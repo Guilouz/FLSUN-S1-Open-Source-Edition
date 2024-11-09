@@ -20,6 +20,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **FLSUN-OS**: [Geekb
   - KlipperScreen (latest build with modifications for S1 support)<br />
   - Mainsail (latest build without modification)<br />
   - MJPG-Streamer (latest build)<br />
+  - Kiauh (latest build)<br />
   - Moonraker Timelapse support<br />
   - Preconfigured Web interfaces<br />
   - Improved configuration files (M600 support, Drying Box from Web UI support, etc...)<br />
