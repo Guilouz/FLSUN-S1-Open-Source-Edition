@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-## FLSUN OS 1.2 Public Release
+## FLSUN OS - 1.2 (Public Release)
 <hr>
 
 - Added **Easy Installer** to facilitate installations and some actions with the simple **`easy-installer`** command in SSH:
@@ -29,7 +29,7 @@ hide:
 - Updated **Klipper** configuration files.
 - Integrated latest Moonraker, Klipper, KlipperScreen, Mainsail and Kiauh builds.
 
-## FLSUN OS 1.1 Beta
+## FLSUN OS - 1.1 (Beta Release)
 <hr>
 
 - Updated kernel to restore CPU frequency to 1.5GHz instead of 1GHz (50% increase in performance).
@@ -42,7 +42,7 @@ hide:
 - Integration of FLSUN Gcodes files.
 - Fixed screen brightness.
 
-## FLSUN OS 1.0 Beta
+## FLSUN OS - 1.0 (Beta Release)
 <hr>
 
 - Initial Beta Release
