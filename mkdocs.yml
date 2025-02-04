@@ -1,0 +1,140 @@
+site_name: S1 - OPEN SOURCE EDITION
+site_description: Open Source OS for FLSUN S1
+site_author: Guislain Cyril
+
+repo_name: GitHub
+repo_url: https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/releases
+
+theme:
+    name: material
+    language: en
+    logo: assets/images/logo.png
+    favicon: assets/images/favicon.png
+    icon:
+        repo: material/github
+        admonition:
+            note: material/information
+    font:
+        text: Roboto
+        code: Roboto Mono
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: custom
+          accent: custom
+          toggle:
+            icon: material/brightness-4
+            name: Dark Mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: custom
+          accent: custom
+          toggle:
+            icon: material/brightness-7
+            name: Light Mode
+    features:
+        - content.code.copy
+        - content.code.annotate
+        - navigation.top
+        - navigation.indexes
+        - navigation.sections
+        - search.highlight
+        - search.share
+        - search.suggest
+extra_css:
+    - ./assets/css/extra.css
+    - ./assets/css/glightbox.min.css
+extra_javascript:
+    - ./assets/javascript/glightbox.min.js
+    - ./assets/javascript/external_links.js
+plugins:
+    - search
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        slide_effect: slide
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
+        skip_classes:
+            - zoom-off
+        auto_caption: false
+        caption_position: bottom
+copyright: Guislain Cyril &copy; All rights reserved
+extra:
+  generator: false
+  social:
+    - icon: simple/kofi
+      link: https://ko-fi.com/guilouz
+    - icon: simple/github
+      link: https://github.com/Guilouz
+    - icon: simple/tiktok
+      link: https://tiktok.com/@guilouz
+    - icon: simple/x
+      link: https://twitter.com/Guilouz
+    - icon: simple/printables
+      link: https://www.printables.com/@Guilouz
+    - icon: simple/semanticweb
+      link: https://makerworld.com/en/@Guilouz
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - meta
+    - tables
+    - def_list
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - toc:
+        title: On this page
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - Screenshots: screenshots.md
+    - Changelogs: changelogs.md
+    - Special Thanks: special-thanks.md
+    - "<svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='vertical-align:middle;'><path d='M12.438 23.654c-2.853 0-5.46-1.04-7.476-2.766L0 21.568l1.917-4.733C1.25 15.36.875 13.725.875 12 .875 5.564 6.05.346 12.44.346 18.82.346 24 5.564 24 12c0 6.438-5.176 11.654-11.562 11.654zm6.315-11.687v-.033c0-3.363-2.373-5.76-6.462-5.76H7.877V17.83h4.35c4.12 0 6.525-2.5 6.525-5.863h.004zm-6.415 2.998h-1.29V9.04h1.29c1.897 0 3.157 1.08 3.157 2.945v.03c0 1.884-1.26 2.95-3.157 2.95z'/></svg>\u00A0\u00A0\u00A0Discussions": https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/discussions
+    - PREREQUISITES:
+        - Prepare microSD Card for FLSUN OS: prepare-microsd-card-for-flsun-os.md
+        - Prepare microSD Card for Motherboard Firmware: prepare-microsd-card-for-motherboard-firmware.md
+    - PREPARATION:
+        - Flash Motherboard Firmware: flash-motherboard-firmware.md
+        - Insert microSD Card with FLSUN OS in Core Board: insert-microsd-card-with-flsun-os-in-core-board.md
+        - First Boot: first-boot.md
+    - CONFIGURATIONS:
+        - Klipper Configurations Files: klipper-configurations-files.md
+        - Slicers Settings: slicers-settings.md
+        - SSH Connection: ssh-connection.md
+        - Web Interfaces: web-interfaces.md
+        - Update Time Zone: update-time-zone.md
+        - Bed Mesh: bed-mesh.md
+        - Pressure Advance: pressure-advance.md
+        - XY Dimensions Calibration: xy-dimensions-calibration.md
+        - Tips: tips.md
+    - EXTRAS:
+        - Flash Closed Loops Boards: flash-closed-loops-boards.md
+        - Camera Settings Control: camera-settings-control.md
+        - Easy Installer: easy-installer.md
+        - Remote Access: remote-access.md
+        - Spoolman: spoolman.md
+        - BigTreeTech MMB Cubic: bigtreetech-mmb-cubic.md
+    - STL FILES:
+        - "<svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='vertical-align:middle;'><path d='M3.678 4.8 12 9.6v9.6l8.322-4.8V4.8L12 0ZM12 19.2l-8.322-4.8V24Z'/></svg>\u00A0\u00A0\u00A0Printables": https://www.printables.com/@Guilouz/models
+        - "<svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='vertical-align:middle;'><path d='M21.602 0s-1.524 5.809-8.516 2.658c-.776-.35-.954-.444-.982-.469L2.074 6.301l10.043 4.896s.776-.326 2.026-.933C20.273 7.287 21.602 0 21.602 0zM1.59 8.486v10.448L10.947 24V13.242L1.59 8.486zm20.82 0l-9.357 4.756V24l9.357-5.066V8.486Z'/></svg>\u00A0\u00A0\u00A0Makerworld": https://makerworld.com/en/@Guilouz
