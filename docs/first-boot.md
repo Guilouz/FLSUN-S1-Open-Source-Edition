@@ -11,7 +11,7 @@ hide:
 
 	If not, your image was not correctly written to your microSD card, try another microSD card or retry: <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a>  
 
-- Once you are on the **KlipperScreen** interface, lick on **`Configurations`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner.
+- Once you are on the **KlipperScreen** interface, click on **`Configurations`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner.
 
 - Wait for **Moonraker** and **Klipper** to connect, if not click **`Retry`** button.<br />The LEDs on the left side of the screen should light up white as soon as the connection is established.
 
