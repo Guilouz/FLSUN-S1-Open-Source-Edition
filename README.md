@@ -1,6 +1,6 @@
 # FLSUN S1 Open Source Edition
 
-<img width="1100" src="https://github.com/user-attachments/assets/bddd9f5c-c218-424b-aa7e-ba0b8a9ff025">
+<img width="1100" src="https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/blob/main/docs/assets/images/home.png?raw=true">
 
 ---
 
@@ -37,11 +37,11 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
 
 Wiki is available here:
 
-<a href="https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/home.html" target="_blank"><img width="350" src="https://github.com/user-attachments/assets/fa7f733f-42ee-4024-a9e0-043c1de8ab2a"></a>
+<a href="https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/home.html" target="_blank"><img width="350" src="https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/blob/main/docs/assets/images/open-source-edition.png?raw=true"></a>
 
 
 ## :heartpulse: You can support me
 
 If you like my work, don't hesitate to support me by paying me a 🍺 or a ☕. Thank you 🙂
 
-<a href="https://ko-fi.com/guilouz" target="_blank"><img width="350" src="https://github.com/Guilouz/Creality-Helper-Script-Wiki/blob/main/docs/assets/img/home/Ko-fi.png?raw=true"></a>
+<a href="https://ko-fi.com/guilouz" target="_blank"><img width="350" src="https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/blob/main/docs/assets/images/ko-fi.png?raw=true"></a>
