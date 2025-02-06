@@ -127,6 +127,7 @@ nav:
         - Bed Mesh: bed-mesh.md
         - Pressure Advance: pressure-advance.md
         - XY Dimensions Calibration: xy-dimensions-calibration.md
+        - Extruder Calibration: extruder-calibration.md
         - Tips: tips.md
     - EXTRAS:
         - Flash Closed Loops Boards: flash-closed-loops-boards.md
