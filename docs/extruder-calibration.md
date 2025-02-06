@@ -103,6 +103,8 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 	rotation_distance: 4.59
     ```
 
+- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
+
 <br />
 
 **If you like my work, don't hesitate to support me by paying me a 🍺 or a ☕. Thank you 🙂**
