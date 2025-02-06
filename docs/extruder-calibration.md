@@ -11,7 +11,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
 - Heat the Hotend to an appropriate temperature and insert filament in it.
 
-- Use a marker to place a mark on the filament 120 mm from the inlet of the extruder.
+- Use a marker to place a mark on the filament **120** mm from the inlet of the extruder.
 
 - Then use a digital caliper to measure the actual distance from that mark as accurately as possible.
 
