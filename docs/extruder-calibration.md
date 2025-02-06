@@ -11,11 +11,11 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
 - Heat the Hotend to an appropriate temperature and insert filament in it.
 
-- Use a marker to place a mark on the filament 120mm from the inlet of the extruder.
+- Use a marker to place a mark on the filament 120 mm from the inlet of the extruder.
 
 - Then use a digital caliper to measure the actual distance from that mark as accurately as possible.
 
-    Note this value of **120**mm as the **`<initial_mark_distance>`**.
+    Note this value of **120** mm as the **`<initial_mark_distance>`**.
 
 - Open **Console** on your Web interface:
 
@@ -32,7 +32,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
     G1 E100 F100
     ```
 
-    Note this value of **100**mm as the **`<requested_extrude_distance>`**.
+    Note this value of **100** mm as the **`<requested_extrude_distance>`**.
 
 - Wait for extruder to complete the movement (this will take several seconds). It's important to use a slow extrusion speed for this test, as a faster speed can cause high pressure in the extruder which will skew the results. So don't use the EXTRUDE button from Mainsail/Fluidd or from the screen for this test as they extrude at a fast rate.
 
@@ -73,15 +73,15 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
 - So I have :
 
-    - My **`<initial_mark_distance>`** value of **120**mm.
-    - My **`<requested_extrude_distance>`** value of **100**mm.
-    - My **`<measured_distance>`** value of **18**mm.
+    - My **`<initial_mark_distance>`** value of **120** mm.
+    - My **`<requested_extrude_distance>`** value of **100** mm.
+    - My **`<measured_distance>`** value of **18** mm.
 
-- So I calculate my current **`<extrusion_distance>`** for **100**mm requested:
+- So I calculate my current **`<extrusion_distance>`** for **100** mm requested:
 
     **`<initial_mark_distance>`** :fontawesome-solid-minus: **`<measured_distance>`** :fontawesome-solid-arrow-right-long: **`<extrusion_distance>`**
 
-    **120**mm :fontawesome-solid-minus: **18**mm :fontawesome-solid-arrow-right-long: **102**mm
+    **120** mm :fontawesome-solid-minus: **18** mm :fontawesome-solid-arrow-right-long: **102** mm
 
 - I get the **`<current_rotation_distance>`** value from the **`printer.cfg`** file which is **4.5**.
 
@@ -89,7 +89,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
     **`<current_rotation_distance>`** :fontawesome-solid-xmark: **`<extrusion_distance>`** :fontawesome-solid-divide: **`<requested_extrude_distance>`** :fontawesome-solid-arrow-right-long: **`<rotation_distance>`**
 
-    **4.5** :fontawesome-solid-xmark: **102**mm :fontawesome-solid-divide: **100**mm :fontawesome-solid-arrow-right-long: **4.59**
+    **4.5** :fontawesome-solid-xmark: **102** mm :fontawesome-solid-divide: **100** mm :fontawesome-solid-arrow-right-long: **4.59**
 
 - I replace the **rotation_distance: 4.5** line in the **`printer.cfg`** file with:<br />
   **rotation_distance: 4.59**:
@@ -102,7 +102,6 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 	microsteps: 16
 	rotation_distance: 4.59
     ```
-
 
 <br />
 
