@@ -92,7 +92,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
     **4.5** :fontawesome-solid-xmark: **102** mm :fontawesome-solid-divide: **100** mm :fontawesome-solid-arrow-right-long: **4.59**
 
 - I replace the **rotation_distance: 4.5** line in the **`printer.cfg`** file with:<br />
-  **rotation_distance: 4.59**:
+  **rotation_distance: 4.59**
 
     ``` title="printer.cfg" hl_lines="6"
     [extruder]
