@@ -31,9 +31,9 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
  
  - And add this Gcode:
  
-   ```
-   SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
-   ```
+    ```
+    SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+    ```
 
 
 ###  PrusaSlicer / SuperSlicer
@@ -60,9 +60,9 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
  
  - And add this Gcode:
  
-   ```
-   SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
-   ```
+    ```
+    SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+    ```
 
 
 ## Settings for Timelapse
