@@ -2,7 +2,7 @@ site_name: S1 - OPEN SOURCE EDITION
 site_description: Open Source OS for FLSUN S1
 site_author: Guislain Cyril
 
-repo_name: GitHub
+repo_name: FLSUN OS
 repo_url: https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/releases
 
 theme:
