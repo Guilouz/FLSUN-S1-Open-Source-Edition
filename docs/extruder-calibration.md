@@ -15,24 +15,24 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
 - Then use a digital caliper to measure the actual distance from that mark as accurately as possible.
 
-    Note this value of 120mm as the **`<initial_mark_distance>`**.
+    Note this value of **120**mm as the **`<initial_mark_distance>`**.
 
-- Go to you Web interface:
+- Open **Console** on your Web interface:
 
     - On **Mainsail** Web Interface go to **`CONSOLE`** tab on the left side.
     - On **Fluidd** Web Interface go to **`Console`** icon on the left side.
 
 - Extrude 100mm of filament with the following command sequence:
 
-    ```
+    ``` title="Console"
     G91
     ```
 
-    ```
+    ``` title="Console"
     G1 E100 F100
     ```
 
-    Note this value of 100mm as the **`<requested_extrude_distance>`**.
+    Note this value of **100**mm as the **`<requested_extrude_distance>`**.
 
 - Wait for extruder to complete the movement (this will take several seconds). It's important to use a slow extrusion speed for this test, as a faster speed can cause high pressure in the extruder which will skew the results. So don't use the EXTRUDE button from Mainsail/Fluidd or from the screen for this test as they extrude at a fast rate.
 
@@ -44,7 +44,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
     **`<initial_mark_distance>`** :fontawesome-solid-minus: **`<measured_distance>`** :fontawesome-solid-arrow-right-long: **`<extrusion_distance>`**
 
-- Then retrieve the current **rotation_distance** value from the `printer.cfg` file at the `rotation_distance:` line of the `[extruder]` section:
+- Then retrieve the current **rotation_distance** value from the **`printer.cfg`** file at the **`rotation_distance:`** line of the **`[extruder]`** section:
 
     ``` title="printer.cfg" hl_lines="6"
     [extruder]
@@ -55,9 +55,9 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 	rotation_distance: 4.5
     ```
 
-    Note this value as `<current_rotation_distance>`.
+    Note this value as **`<current_rotation_distance>`**.
 
-- Calculate the rotation_distance as follows:
+- Calculate the **rotation_distance** as follows:
 
     **`<current_rotation_distance>`** :fontawesome-solid-xmark: **`<extrusion_distance>`** :fontawesome-solid-divide: **`<requested_extrude_distance>`** :fontawesome-solid-arrow-right-long: **`<rotation_distance>`**
 
@@ -73,15 +73,15 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
 - So I have :
 
-    - My **`<initial_mark_distance>`** value of 120mm.
-    - My **`<requested_extrude_distance>`** value of 100mm.
-    - My **`<measured_distance>`** value of 18mm.
+    - My **`<initial_mark_distance>`** value of **120**mm.
+    - My **`<requested_extrude_distance>`** value of **100**mm.
+    - My **`<measured_distance>`** value of **18**mm.
 
-- So I calculate my current **`<extrusion_distance>`** for 100mm requested:
+- So I calculate my current **`<extrusion_distance>`** for **100**mm requested:
 
     **`<initial_mark_distance>`** :fontawesome-solid-minus: **`<measured_distance>`** :fontawesome-solid-arrow-right-long: **`<extrusion_distance>`**
 
-    120mm :fontawesome-solid-minus: 18mm :fontawesome-solid-arrow-right-long: **102mm**
+    **120**mm :fontawesome-solid-minus: **18**mm :fontawesome-solid-arrow-right-long: **102**mm
 
 - I get the **`<current_rotation_distance>`** value from the **`printer.cfg`** file which is **4.5**.
 
@@ -89,7 +89,7 @@ On an extruder, the **rotation_distance** is the amount of distance the filament
 
     **`<current_rotation_distance>`** :fontawesome-solid-xmark: **`<extrusion_distance>`** :fontawesome-solid-divide: **`<requested_extrude_distance>`** :fontawesome-solid-arrow-right-long: **`<rotation_distance>`**
 
-    4.5 :fontawesome-solid-xmark: 102mm :fontawesome-solid-divide: 100mm :fontawesome-solid-arrow-right-long: **4.59**
+    **4.5** :fontawesome-solid-xmark: **102**mm :fontawesome-solid-divide: **100**mm :fontawesome-solid-arrow-right-long: **4.59**
 
 - I replace the **rotation_distance: 4.5** line in the **`printer.cfg`** file with:<br />
   **rotation_distance: 4.59**:
