@@ -65,6 +65,14 @@ It's enabled by default but if you want to disable it, follow these steps:
 
 !!! Note
     The **Current Status** shown is saved and loaded automatically when the printer starts.
+ 
+ 
+ ### Troubleshootings
+<hr>
+
+In case you have `Probe samples exceed samples_tolerance` message when probing, try this:
+ 
+ <iframe width="900" height="506" src="../assets/videos/Fix_Bed_Issue.mp4" title="Fix Bed Issue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 <br />
 
