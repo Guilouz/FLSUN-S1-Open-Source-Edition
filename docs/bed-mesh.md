@@ -85,8 +85,8 @@ In case you have **`Probe samples exceed samples_tolerance`** message when probi
 
 - Search this line in **`Probe Settings`** section and increase this value:
  
-     ``` title="printer.cfg" hl_lines="10"
-	[probe]
+    ``` title="printer.cfg" hl_lines="10"
+    [probe]
     pin: !PD4
     x_offset: 0
     y_offset: 0
@@ -97,9 +97,12 @@ In case you have **`Probe samples exceed samples_tolerance`** message when probi
     sample_retract_dist: 5
     samples_tolerance: 0.08
     samples_tolerance_retries: 7
-     ```
+    ```
 
 - Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
+
+!!! Note
+    Increasing this value too much may decrease accuracy.
 
 <br />
 
