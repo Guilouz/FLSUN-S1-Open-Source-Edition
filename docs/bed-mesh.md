@@ -99,10 +99,10 @@ In case you have **`Probe samples exceed samples_tolerance`** message when probi
     samples_tolerance_retries: 7
     ```
 
-- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
+	!!! Warning
+        **Increasing this value too much may decrease accuracy.**
 
-!!! Warning
-    **Increasing this value too much may decrease accuracy.**
+- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
 
 <br />
 
