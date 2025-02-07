@@ -4,6 +4,13 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 1.2.1 (Public Release)
+<hr>
+
+- Fixed issue with error message `This macro cannot be used while printing!`. You can update configuration files with **`easy-installer`** command in SSH.
+- `SET_TMC_CURRENT` command now integrated in macros. It's no longer necessary to add it in the slicer Start Gcode.
+
+
 ## FLSUN OS - 1.2 (Public Release)
 <hr>
 
@@ -29,6 +36,7 @@ hide:
 - Updated **Klipper** configuration files.
 - Integrated latest Moonraker, Klipper, KlipperScreen, Mainsail and Kiauh builds.
 
+
 ## FLSUN OS - 1.1 (Beta Release)
 <hr>
 
@@ -41,6 +49,7 @@ hide:
 - Updated Web interface configuration files.
 - Integration of FLSUN Gcodes files.
 - Fixed screen brightness.
+
 
 ## FLSUN OS - 1.0 (Beta Release)
 <hr>

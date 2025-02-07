@@ -17,7 +17,6 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     ```
     SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 	_START_GCODE X_MIN={first_layer_print_min[0]} X_MAX={first_layer_print_max[0]} Y_MIN={first_layer_print_min[1]} Y_MAX={first_layer_print_max[1]} BED_TEMP=[first_layer_bed_temperature] HOTEND_TEMP=[first_layer_temperature]
-	SET_TMC_CURRENT STEPPER=extruder CURRENT=0.8
     ```
  
  - Go to **Printer Settings** → **Machine G-code** → **End G-code**
@@ -47,7 +46,6 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     ```
     SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
     _START_GCODE X_MIN={first_layer_print_min[0]} X_MAX={first_layer_print_max[0]} Y_MIN={first_layer_print_min[1]} Y_MAX={first_layer_print_max[1]} BED_TEMP=[first_layer_bed_temperature] HOTEND_TEMP=[first_layer_temperature]
-    SET_TMC_CURRENT STEPPER=extruder CURRENT=0.8
     ```
 
 - Go to **Printer Settings** → **Custom G-code** → **End Gcode**
