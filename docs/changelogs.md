@@ -4,6 +4,12 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 1.2.2 (Public Release)
+<hr>
+
+- Fixed issue with error message `dict object has no attribute max_power` when resuming. You can update configuration files with **`easy-installer`** command in SSH.
+
+
 ## FLSUN OS - 1.2.1 (Public Release)
 <hr>
 
