@@ -7,7 +7,7 @@ icon: material/printer-3d
 
 In order for the Bed Mesh Selection to work it's necessary to modify the Start Gcode.
 
-### OrcaSlicer / FlsunSlicer
+### OrcaSlicer
 <hr>
 
 - Go to **Printer Settings** → **Machine G-code** → **Start G-code**
@@ -17,6 +17,37 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     ```
     SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 	_START_GCODE X_MIN={first_layer_print_min[0]} X_MAX={first_layer_print_max[0]} Y_MIN={first_layer_print_min[1]} Y_MAX={first_layer_print_max[1]} BED_TEMP=[first_layer_bed_temperature] HOTEND_TEMP=[first_layer_temperature]
+    ```
+ 
+ - Go to **Printer Settings** → **Machine G-code** → **End G-code**
+
+- And replace existing Gcode by this one:
+
+    ```
+    _END_GCODE
+    ```
+
+ - Go to **Printer Settings** → **Machine G-code** → **Layer change G-code**
+ 
+ - And add this Gcode:
+ 
+    ```
+    SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+    ```
+
+
+### FlsunSlicer
+<hr>
+
+- Go to **Printer Settings** → **Machine G-code** → **Start G-code**
+
+- And replace existing Gcode by this one:
+
+    ```
+    SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
+	_START_GCODE X_MIN={first_layer_print_min[0]} X_MAX={first_layer_print_max[0]} Y_MIN={first_layer_print_min[1]} Y_MAX={first_layer_print_max[1]} BED_TEMP=[first_layer_bed_temperature] HOTEND_TEMP=[first_layer_temperature]
+	;is_AB
+    ;is_AB
     ```
  
  - Go to **Printer Settings** → **Machine G-code** → **End G-code**
