@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Open Source OS is already ready to use for the FLSUN S1 Stock version but other Klipper configuration sets are available:
+The Open Source OS is already ready to use for the FLSUN S1 Stock version but make sure to always use the latest available Klipper configuration files:
 
   - **Stock (without Silent Kit)** → for FLSUN S1 Stock (configuration loaded by default)
   - **Stock (with Silent Kit)** → for FLSUN S1 with Silent Kit (CPAP less noisy)
