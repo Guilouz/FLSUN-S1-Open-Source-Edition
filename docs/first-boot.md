@@ -27,7 +27,7 @@ hide:
  	To do this, go to the **`Configurations`** → **`Calibrations`** menu.
 
  	- **Motors Calibration** → To Calibrate Motors
- 	- **Z Offset Calibration** → To adjust Z Offset if needed
+ 	- **Z Offset Calibration** → To calibrate Z Offset
  	- **Bed Mesh** → To perform Delta Calibration and Bed Leveling
  	- **Input Shaper** → To measure Resonances
 
