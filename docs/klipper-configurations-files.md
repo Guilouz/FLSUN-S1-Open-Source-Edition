@@ -31,7 +31,7 @@ The Open Source OS is already ready to use for the FLSUN S1 Stock version but ma
 
 	<img width="900" src="../assets/images/installer-05.png">
 
-- The chosen configuration will be automatically applied.
+- The chosen configuration will be downloaded and automatically applied.
 
 !!! Note
     The installer downloads the latest version of Klipper configuration files but if needed, they are available <a href="https://github.com/Guilouz/Klipper-Flsun-S1/tree/master/config">here</a>.
