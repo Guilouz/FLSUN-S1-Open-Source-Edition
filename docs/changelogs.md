@@ -8,7 +8,8 @@ hide:
 <hr>
 
 - The system is now shutdown properly when the printer is powered off.
-- Reworked Power Loss Recovery. It now resumes exactly where it left off and it also preserves all settings like filament used, chamber fan speed, extrude mode, speed factor, extrude factor and all velocity parameters.
+- Reworked Power Loss Recovery. It now resumes exactly where it left off and it also preserves all settings like filament used, chamber fan speed, extrude mode, speed factor, extrude factor and all velocity parameters. **Klipper** has also been updated for this.
+- Improved Bed Mesh with `zero_reference_position` parameter.
 - Added support for Chamber LED brightness control in **KlipperScreen**.
 - Macros now respect current configuration settings.
 - Improved Gcode Offsets to apply them to Endstops. **KlipperScreen** has also been updated for this.
