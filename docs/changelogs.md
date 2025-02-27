@@ -4,17 +4,39 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 1.3 (Public Release)
+<hr>
+
+- The system is now shutdown properly when the printer is powered off.
+- Reworked Power Loss Recovery. It now resumes exactly where it left off and it also preserves all settings like filament used, chamber fan speed, extrude mode, speed factor, extrude factor and all velocity parameters.
+- Added support for Chamber LED brightness control in **KlipperScreen**.
+- Macros now respect current configuration settings.
+- Improved Gcode Offsets to apply them to Endstops. **KlipperScreen** has also been updated for this.
+- Improved Bed Mesh with `zero_reference_position` parameter.
+- Improved `SET_GCODE_OFFSET` macro.
+- Improved `RESUME` macro: Shutdown fan for heating.
+- Set default PID Hotend Calibration temperature to reasonable 250°C.
+- Changes default extruder curent to 0.8.
+- Updated **KlipperScreen** environment.
+
+You can update configuration files for fixes with **`easy-installer`** command in SSH. Environment is updated automatically when KlipperScreen is updated with Update Manager.
+
+
 ## FLSUN OS - 1.2.2 (Public Release)
 <hr>
 
-- Fixed issue with error message `dict object has no attribute max_power` when resuming. You can update configuration files with **`easy-installer`** command in SSH.
+- Fixed issue with error message `dict object has no attribute max_power` when resuming.
+
+You can update configuration files for fixes with **`easy-installer`** command in SSH.
 
 
 ## FLSUN OS - 1.2.1 (Public Release)
 <hr>
 
-- Fixed issue with error message `This macro cannot be used while printing!`. You can update configuration files with **`easy-installer`** command in SSH.
+- Fixed issue with error message `This macro cannot be used while printing!`.
 - `SET_TMC_CURRENT` command now integrated in macros. It's no longer necessary to add it in the slicer Start Gcode.
+
+You can update configuration files for fixes with **`easy-installer`** command in SSH.
 
 
 ## FLSUN OS - 1.2 (Public Release)
