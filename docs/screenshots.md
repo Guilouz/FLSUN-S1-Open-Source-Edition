@@ -83,6 +83,11 @@ hide:
 	<img width="600" src="../assets/images/screenshot_17.png">
 
 
+- **LED Panel**
+
+	<img width="600" src="../assets/images/screenshot_21.png">
+
+
 - **Spoolman Panel**
 
 	<img width="600" src="../assets/images/screenshot_18.png">
