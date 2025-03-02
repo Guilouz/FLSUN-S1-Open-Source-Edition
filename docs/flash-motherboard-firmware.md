@@ -51,7 +51,7 @@ In this situation, it's necessary to flash the motherboard with a ST-LINK V2 Pro
 !!! Note
     You can skip this step if you have already installed the utility.
 
-- Extract **`STM32_ST-LINK_Utility_v4.6.0.zip`** file and run **`STM32 ST-LINK Utility v4.6.0.exe`** installer.
+- Unzip **`STM32_ST-LINK_Utility_v4.6.0.zip`** file and run **`STM32 ST-LINK Utility v4.6.0.exe`** installer.
 
 - Click on **`Next`** button:
 
