@@ -48,8 +48,11 @@ The eMMC offers faster read and write speed and is less prone to physical corrup
     ``` title="SSH Command Prompt - Backup rootfs.img"
     sudo dd if=/dev/mmcblk0p6 of=/home/pi/printer_data/gcodes/USB-DISK-1/rootfs.img status=progress bs=1M
     ```
-    ``` title="SSH Command Prompt - Backup mmc.img"
-    sudo dd if=/dev/mmcblk0 of=/home/pi/printer_data/gcodes/USB-DISK-1/mmc.img status=progress bs=1M
+    ``` title="SSH Command Prompt - Backup gpt.img"
+    sudo dd if=/dev/mmcblk0 of=/home/pi/printer_data/gcodes/USB-DISK-1/gpt.img bs=512 count=64
+    ```
+    ``` title="SSH Command Prompt - Backup bootloader.img"
+    sudo dd if=/dev/mmcblk0 of=/home/pi/printer_data/gcodes/USB-DISK-1/bootloader.img bs=512 count=16320 skip=64
     ```
 
 - When it's done, you can remove the USB drive and keep your backup images safe.
