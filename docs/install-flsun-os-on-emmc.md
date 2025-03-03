@@ -4,7 +4,7 @@ icon: octicons/cpu-16
 
 This process installs FLSUN OS on the core board's eMMC memory.<br />
 
-What are the advantages over microSD?<br />
+<i>**What are the advantages over microSD?**</i><br />
 The eMMC offers faster read and write speed and is less prone to physical corruption. It is known to be more robust and durable than SD cards as it can withstand more write cycles before failing.<br />
 
 
