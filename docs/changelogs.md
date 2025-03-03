@@ -4,6 +4,19 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 1.4 (Public Release)
+<hr>
+
+- Added in-image security with bootloader core board: In case the eMMC is corrupted or unbootable, booting via microSD is still possible.
+- Now possible to install **FLSUN OS** on eMMC. See <a href="../install-flsun-os-on-emmc">:octicons-cpu-16: Install FLSUN OS on eMMC</a> section.
+- Added possibility to Unload Filament with Purge or Retraction with new macros. **KlipperScreen** has also been updated for this.
+
+    <img width="600" src="../assets/images/screenshot_05.png">
+
+
+You can update configuration files with **`easy-installer`** command in SSH but for more security it's necessary to install this new image.
+
+
 ## FLSUN OS - 1.3 (Public Release)
 <hr>
 
@@ -20,7 +33,7 @@ hide:
 - Changes default extruder curent to 0.8.
 - Updated **KlipperScreen** environment.
 
-You can update configuration files for fixes with **`easy-installer`** command in SSH. Environment is updated automatically when KlipperScreen is updated with Update Manager.
+You can update configuration files for fixes with **`easy-installer`** command in SSH. Environment is updated automatically when **KlipperScreen** is updated with Update Manager.
 
 
 ## FLSUN OS - 1.2.2 (Public Release)

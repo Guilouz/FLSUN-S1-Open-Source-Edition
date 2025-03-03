@@ -9,7 +9,7 @@ icon: material/micro-sd
 
 - **Raspberry Pi Imager**: <a href="https://www.raspberrypi.com/software/">:material-download: Download</a>
 
-- **FLSUN OS** image: <a href="https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/releases">:material-download: Download</a>
+- **FLSUN OS** image (SD version): <a href="https://github.com/Guilouz/FLSUN-S1-Open-Source-Edition/releases">:material-download: Download</a>
 
 
 ## Prepare microSD

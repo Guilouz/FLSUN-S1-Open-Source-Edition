@@ -7,7 +7,7 @@ icon: octicons/cpu-16
 
 - Make sure the printer is turned off.
 
-- Use the H2.0 hex wrench in the accessory box to remove the screws from the top cover of the printer.
+- Use the H2.0 Allen wrench in the accessory box to remove the screws from the top cover of the printer.
 
 - Insert microSD card into the microSD port on the motherboard:
   	  

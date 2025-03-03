@@ -137,6 +137,8 @@ nav:
         - Remote Access: remote-access.md
         - Spoolman: spoolman.md
         - BigTreeTech MMB Cubic: bigtreetech-mmb-cubic.md
+    - ADVANCED USERS:
+        - Install FLSUN OS on eMMC: install-flsun-os-on-emmc.md
     - STL FILES:
         - "<svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='vertical-align:middle;'><path d='M3.678 4.8 12 9.6v9.6l8.322-4.8V4.8L12 0ZM12 19.2l-8.322-4.8V24Z'/></svg>\u00A0\u00A0\u00A0Printables": https://www.printables.com/@Guilouz/models
         - "<svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='18' height='18' style='vertical-align:middle;'><path d='M21.602 0s-1.524 5.809-8.516 2.658c-.776-.35-.954-.444-.982-.469L2.074 6.301l10.043 4.896s.776-.326 2.026-.933C20.273 7.287 21.602 0 21.602 0zM1.59 8.486v10.448L10.947 24V13.242L1.59 8.486zm20.82 0l-9.357 4.756V24l9.357-5.066V8.486Z'/></svg>\u00A0\u00A0\u00A0Makerworld": https://makerworld.com/en/@Guilouz

@@ -6,14 +6,14 @@ hide:
 
 - Make sure the printer is turned off.
 
-- Use the H2.0 hex wrench in the accessory box to remove the screws from the top cover of the printer.
+- Use the H2.0 Allen wrench in the accessory box to remove the screws from the top cover of the printer.
 
-- Use the H2.0 hex wrench in the accessory box to remove the screws above the screen:
+- Use the H2.0 Allen wrench in the accessory box to remove the screws above the screen:
 
     <img width="900" src="../assets/images/core-board-01.jpg">
 
 
-- Use the H3.0 hex wrench in the accessory box to remove the screws under the screen:
+- Use the H3.0 Allen wrench in the accessory box to remove the screws under the screen:
 
     <img width="900" src="../assets/images/core-board-02.jpg">
 
@@ -23,7 +23,7 @@ hide:
     <img width="900" src="../assets/images/core-board-03.jpg">
 
  
-- Use the H2.0 hex wrench in the accessory box to remove the eight screws on the back cover of the screen, and disassemble the back cover of the screen:
+- Use the H2.0 Allen wrench in the accessory box to remove the eight screws on the back cover of the screen, and disassemble the back cover of the screen:
 
     <img width="900" src="../assets/images/core-board-04.jpg">
 
