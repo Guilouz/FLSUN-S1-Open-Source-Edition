@@ -5,7 +5,8 @@ icon: octicons/cpu-16
 This process installs FLSUN OS on the core board's eMMC memory.
 
 <br />
-What are the advantages over microSD? 
+
+What are the advantages over microSD?<br />
 The eMMC offers faster read and write speed and is less prone to physical corruption. It is known to be more robust and durable than SD cards as it can withstand more write cycles before failing.
 
 <br />
@@ -15,14 +16,16 @@ The eMMC offers faster read and write speed and is less prone to physical corrup
     **Any mishandling can render your core board unusable!**<br />
     **Only use this procedure if you know what you are doing. I will not be responsible if something goes wrong.**<br />
     **It's better to make a backup of your rootfs partition before.**<br /><br />
-    If needed, here is a full backup of eMMC with Stock OS 1.0.6.4: <a href="https://drive.google.com/file/d/14JhpC56aXe_kKlerZf43JvFv31ULlQqN/view?usp=sharing">STOCK-OS-S1-EMMC-1.0.6.4.7z</a><br />
+    If needed, here is a full backup of eMMC with Stock OS 1.0.6.4: <a href="https://drive.google.com/file/d/14JhpC56aXe_kKlerZf43JvFv31ULlQqN/view?usp=sharing">:material-google-drive: STOCK-OS-S1-EMMC-1.0.6.4.7z</a><br />
     This can restore a bricked core board.
 
 
 ## Backup eMMC
 <hr>
 
-- First, it's necessary to boot **FLSUN OS** from the microSD card. See <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a> section.
+- First, it's necessary to boot **FLSUN OS** from the microSD card.
+
+    See <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a> section.
 
 - When **FLSUN OS** is ready, plug a USB drive of at least **`32 GB`** formatted in **`exFAT`** into one of the printer's USB ports.
 
