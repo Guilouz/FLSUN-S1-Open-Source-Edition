@@ -26,12 +26,14 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
   - Moonraker Timelapse<br />
   - Preconfigured Web interfaces<br />
   - Improved configuration files (M600 support, Drying Box from Web UI support, etc...)<br />
+  - Improved Power Loss Recovery<br />
   - Enhanced Delta Calibration support (More accurate and with denser coverage that allows better detection of variations of the bed or in the mechanics of the printer, which can improve print quality)<br />
   - Bed Mesh Type before printing support (Full Bed Mesh, Adaptive Bed Mesh or No Mesh)<br />
   - Easy Installer to facilitate programs installation and some actions with the simple **`easy-installer`** command in SSH
   - Hostname based on MAC address<br />
   - Automatic resizing of available storage space<br />
   - BigTreeTech MMB Cubic support (Chamber Temperature Sensor and Neopixels)<br />
+  - Possibility to install FLSUN OS on eMMC memory<br />
 
 !!! Note
     All AI features have been removed as they do not work as expected.<br />Only Power Loss Recovery and XY Dimension Calibration features have been kept.
