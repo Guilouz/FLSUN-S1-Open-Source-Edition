@@ -36,7 +36,8 @@ The Open Source OS is already ready to use for the FLSUN S1 Stock version but ma
 - After that you need to redo all printer calibrations.
 
 !!! Note
-    The installer downloads the latest version of Klipper configuration files but if needed, they are available <a href="https://github.com/Guilouz/Klipper-Flsun-S1/tree/master/config">here</a>.
+    The installer downloads the latest version of Klipper configuration files but if needed, they are available <a href="https://github.com/Guilouz/Klipper-Flsun-S1/tree/master/config">here</a>.<br /><br />
+    Also make sure you always have the latest version of **Moonraker**, **Klipper** and **KlipperScreen** available via **Mainsail** or **Fluidd**'s Update Manager.
 
 <br />
 
