@@ -29,7 +29,7 @@ Motherboard firmware needs to be updated to support the latest version of Klippe
 **You can also compile your own firmware:**
 
 !!! Note
-    MCUs have limited write cycles (>about 10K cycles for a STM32 chip). Updating the firmware with each Klipper release could shorten the life of your MCU!<br /><br />
+    MCUs have limited write cycles (about 10K cycles for a STM32 chip). Updating the firmware with each Klipper release could shorten the life of your MCU!<br /><br />
     <i>**When is it necessary to update Klipper firmware?**</i><br />
     Every time Klipper mentions to update the MCU at startup, no more.
 
