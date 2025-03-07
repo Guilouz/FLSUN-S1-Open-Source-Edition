@@ -28,6 +28,12 @@ Motherboard firmware needs to be updated to support the latest version of Klippe
 
 **You can also compile your own firmware:**
 
+!!! IMPORTANT
+    MCUs have limited write cycles (>about 10K cycles for a STM32 chip). Updating the firmware with each Klipper release could shorten the life of your MCU!<br />< br />
+    <i>**When is it necessary to update Klipper firmware?**</i>
+    Every time Klipper mentions to update the MCU at startup, no more.
+
+
 - Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
 
 - In the SSH command prompt window, enter the following commands (one at a time):
