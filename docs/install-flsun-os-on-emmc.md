@@ -165,7 +165,7 @@ The eMMC offers faster read and write speed and is less prone to physical corrup
 
 
     !!! Note
-        If you encounter the error <i>**Download image failed**<I>:<br />
+        If you encounter the error <i>**Download image failed**</i>:<br />
           - Make sure you are using a USB data cable<br />
           - Try to copy image files in root of your hard disk (C:\)<br />
           - Restart printer and reperform combination to enter in USB Mode
