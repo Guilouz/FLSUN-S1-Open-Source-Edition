@@ -80,7 +80,7 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
     <img width="450" src="../assets/images/btt-mmb-cubic-05.jpg">
  
  
- - In the SSH command prompt window, enter the following command to query the DFU device ID:
+ - In the SSH command prompt window, enter the following command to query the DFU device ID (it should be named **Raspberry Pi RP2 Boot**):
  
 	``` title="SSH Command Prompt"
     lsusb
@@ -100,7 +100,7 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
     
     !!! Example
         ``` title="SSH Command Prompt"
-        make flash FLASH_DEVICE=1d50:614e
+        make flash FLASH_DEVICE=2e8a:0003
         ```
 
 - After flashing, enter the following command to query the device Serial ID:
