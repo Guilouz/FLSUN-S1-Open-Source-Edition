@@ -112,7 +112,7 @@ First of all, it's imperative to backup your motherboard's stock firmware in cas
 ## Flash Bootloader and Klipper Firmware
 <hr>
 
-- When ST-LINK V2 Programmer is connected to motherboard, click on **`File`** → **`Open file...`** and select **`katapult.bin`** firmware file:
+- When ST-LINK V2 Programmer is connected to motherboard, click on **`File`** → **`Open file...`** and select **`motherboard_fw.bin`** firmware file:
 
 	<img width="700" src="../assets/images/motherboard-03.jpg">
 
