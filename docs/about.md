@@ -6,9 +6,9 @@ hide:
 
 <img width="700" src="../assets/images/home.png">
 
-**FLSUN-OS** is an Open Source version for **FLSUN S1** that uses the microSD port of the core board to boot on a new OS.
+**FLSUN-OS** is an Open Source version for **FLSUN S1** and **FLSUN S1 Pro** that uses the microSD port of the core board to boot on a new OS.
 
-This means that the Stock OS is not modified. It’s a kind of dual boot, it's easy to go back to Stock OS.
+This means that the Stock OS is not modified. It’s a kind of dual boot, it's easy to go back to Stock OS but it can also be installed on eMMC memory.
 
 This new OS is based on :simple-debian: ***Debian 12 Bookworm*** and is ready to use. It's more stable and has better performance.<br />
 It has the advantage of having a support until June 2028 unlike Debian 10 (Stock OS) which expired in June 2024.
@@ -33,10 +33,17 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
   - Hostname based on MAC address<br />
   - Automatic resizing of available storage space<br />
   - BigTreeTech MMB Cubic support (Chamber Temperature Sensor and Neopixels)<br />
+  - BigTreeTech Smart Filament Sensor V2.0 support<br />
   - Possibility to install FLSUN OS on eMMC memory<br />
 
 !!! Note
     All AI features have been removed as they do not work as expected.<br />Only Power Loss Recovery and XY Dimension Calibration features have been kept.
+
+<br />
+
+**Known issues:**
+
+- With S1 Pro, CPAP fan turns on when OS starts until Klipper connects (even though the fan pin is disabled at boot in the firmware) but works fine after.
 
 <br />
 
