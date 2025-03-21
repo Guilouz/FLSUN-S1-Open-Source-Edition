@@ -115,10 +115,6 @@ The eMMC offers faster read and write speed and is less prone to physical corrup
 
     <img width="900" src="../assets/images/core-board-04.jpg">
 
-- Use the H2.0 Allen wrench to remove the four screws on the screen core board:
-
-    <img width="900" src="../assets/images/core-board-07.jpg">
-
 
 - Connect the USB cable to the **USB-C 1** port on the core board:
 
