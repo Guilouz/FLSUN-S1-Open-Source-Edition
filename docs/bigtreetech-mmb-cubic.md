@@ -128,23 +128,47 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
 ### Configuration
 <hr>
 
-- Make sure you have chosen the correct configuration files for **MMB Cubic**.<br />See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section.
+MMB Cubic can be configured automatically with **Easy Installer**.<br />See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
 
-- Open **`mmb-cubic.cfg`** file:
+- Open **`config.cfg`** file:
 
     - On **Mainsail** Web Interface go to **`MACHINE`** tab on the left side.
     - On **Fluidd** Web Interface go to **`Configuration`** icon on the left side.
 
 - Edit the **`Configurations`** section:
 
-	``` title="mmb-cubic.cfg" hl_lines="6 10 16 17 18 19 20 21"
-	########################################
-    # Configurations
-    ########################################
+    ``` title="config.cfg" hl_lines="8 9 15 21 22"
+    #######################################################
+    # BigTreeTech MMB Cubic Configuration
+    #######################################################
     
-    [mcu MMB_Cubic]
-    serial: /dev/serial/by-id/usb-Klipper_rp2040_xxxxx
+    # If you use BigTreeTech MMB Cubic -> Enable this lines and set the serial
+    # ------------------------------------------------------------------------
     
+    #[mcu MMB_Cubic]
+    #serial: /dev/serial/by-id/usb-Klipper_rp2040_xxxxx
+    
+    
+    # If you use Chamber Temperature Sensor with BigTreeTech MMB Cubic -> Enable 'temp-sensor-mmb-cubic.cfg'
+    # ------------------------------------------------------------------------------------------------------
+    
+    #[include Configurations/temp-sensor-mmb-cubic.cfg]
+    
+    
+    # If you use Neopixels with BigTreeTech MMB Cubic -> Disable 'led-stock.cfg' and Enable 'led-mmb-cubic.cfg'
+    # ---------------------------------------------------------------------------------------------------------
+    
+    [include Configurations/led-stock.cfg]
+    #[include Configurations/led-mmb-cubic.cfg]
+    ```
+
+    - Edit the **serial** parameter by replacing **xxxxx`** with your previously obtained serial ID.
+
+- Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
+
+- Open **`led-mmb-cubic.cfg`** file in **`Configurations`** folder and edit the **chain_count** parameter by the number of LEDs your strips contain:
+
+    ``` title="led-mmb-cubic.cfg" hl_lines="3"
     [neopixel chamber_led]
     pin: MMB_Cubic:gpio9
     chain_count: 20
@@ -152,18 +176,7 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
     initial_RED: 1.0
     initial_GREEN: 1.0
     initial_BLUE: 1.0
-
-    #[temperature_sensor chamber]
-    #sensor_type: EPCOS 100K B57560G104F
-    #sensor_pin: MMB_Cubic:gpio26 #TH0
-    #min_temp: 0
-    #max_temp: 100
-    #gcode_id: chamber
-	```
-
-    - Edit the **serial** parameter by replacing **xxxxx`** with your previously obtained serial ID.
-    - Edit the **chain_count** parameter by the number of LEDs your strips contain.
-    - Remove the **`#`** symbols if you use chamber temperature sensor.
+    ```
 
 - Once done, click on **`SAVE & RESTART`** button at the top right to save the file.
 
@@ -187,6 +200,36 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
 - If you use chamber temperature sensor, you can see the temperature here:
 
     <img width="600" src="../assets/images/btt-mmb-cubic-12.png">
+
+
+### Update MCU firmware
+<hr>
+
+!!! Note
+    MCUs have limited write cycles. Updating the firmware with each Klipper release could shorten the life of your MCU!<br /><br />
+    <i>**When is it necessary to update MCU firmware?**</i><br />
+    Every time Klipper mentions to update the MCU at startup, no more.
+
+
+To update to a future MCU firmware of your MMB Cubic, follow these steps:
+
+- Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
+
+- In the SSH command prompt window, enter the following command to start **Easy Installer**:
+
+    ``` title="SSH Command Prompt"
+    easy-installer
+    ```
+
+    <img width="900" src="../assets/images/installer-01.png">
+
+- Enter ++"3"++ for **Extras** menu → ++"3"++ for **Update MMB Cubic MCU firmware** → ++"Enter"++ to confirm your choice:
+
+    <img width="900" src="../assets/images/installer-04.png">
+
+- Klipper firmware will be builded and flashed.
+
+- When it's done, Turn the printer off and on.
 
 <br />
 

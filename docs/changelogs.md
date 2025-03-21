@@ -4,7 +4,37 @@ hide:
   - toc
 ---
 
-## FLSUN OS - 1.4 (Public Release)
+## FLSUN OS - 1.5
+<hr>
+
+!!! Important
+    **This new OS version must be reinstalled, it can't be updated with **`easy-installer`** command in SSH.<br />
+    Klipper and KlipperScreen have been updated accordingly and all configurations that could be downloaded with older OS versions are deprecated and have been removed.<br />
+    You also need to flash the motherboard with the new firmware. See <a href="../flash-motherboard-firmware">:octicons-cpu-16: Flash Motherboard Firmware</a> section.**
+
+- Klipper Configuration files are now unified, one set of configurations for all variants.
+- Added support for **BigTreeTech Smart Filament Sensor V2.0**.
+- Added support for <a href="https://github.com/Arksine/katapult">Katapult</a> bootloader. This allows to update future Klipper firmware without microSD card or STM32 Programmer.
+- Added support for <a href="https://github.com/Annex-Engineering/klipper_estimator">Klipper Print Time Estimator</a>. After uploading a Gcode, a post-process on it is immediately performed prior to metadata extraction according to the printer settings.
+- Added new feature to enable/disable Adaptive Bed Heating with `BED_HEATING_SETTINGS` macro or from **KlipperScreen**. See  <a href="../bed-settings/#bed-heating-settings">Bed Heating Settings</a> section.
+- Reworked the logic of bed heating:
+    - M140 S`<temperature>` → Set Inner and Outer beds temperature
+    - M140 S`<temperature>` B0 → Set Inner bed temperature
+    - M140 S`<temperature>` B1 → Set Outer bed temperature
+    - M190 S`<temperature>` → Set Inner and Outer beds temperature and wait
+    - M190 S`<temperature>` B0 → Set Inner bed temperature and wait
+    - M190 S`<temperature>` B1 → Set Outer bed temperature and wait
+- Updated **Easy Installer**:
+    - Added possibility to update motherboard MCU firmware.
+    - Added possibility to update BigTreeTech MMB Cubic MCU firmware.
+    - You can now download the latest Klipper configuration files and configure the desired features.
+- Improved Power Loss detection.
+- Fixed Chamber LED state after OFF/ON switch when brightness was changed from KlipperScreen or Web interface. Now the previous state is correctly restored.
+- Fixed Neopixel LED state after OFF/ON switch when color was changed from KlipperScreen or Web interface. Now the previous state is correctly restored.
+- Minor fixes.
+
+
+## FLSUN OS - 1.4
 <hr>
 
 - Added in-image security with bootloader core board: In case the eMMC is corrupted or unbootable, booting via microSD is still possible.
@@ -17,7 +47,7 @@ hide:
 You can update configuration files with **`easy-installer`** command in SSH but for more security it's necessary to install this new image.
 
 
-## FLSUN OS - 1.3 (Public Release)
+## FLSUN OS - 1.3
 <hr>
 
 - The system is now shutdown properly when the printer is powered off.
@@ -36,7 +66,7 @@ You can update configuration files with **`easy-installer`** command in SSH but 
 You can update configuration files for fixes with **`easy-installer`** command in SSH. Environment is updated automatically when **KlipperScreen** is updated with Update Manager.
 
 
-## FLSUN OS - 1.2.2 (Public Release)
+## FLSUN OS - 1.2.2
 <hr>
 
 - Fixed issue with error message `dict object has no attribute max_power` when resuming.
@@ -44,7 +74,7 @@ You can update configuration files for fixes with **`easy-installer`** command i
 You can update configuration files for fixes with **`easy-installer`** command in SSH.
 
 
-## FLSUN OS - 1.2.1 (Public Release)
+## FLSUN OS - 1.2.1
 <hr>
 
 - Fixed issue with error message `This macro cannot be used while printing!`.
@@ -53,7 +83,7 @@ You can update configuration files for fixes with **`easy-installer`** command i
 You can update configuration files for fixes with **`easy-installer`** command in SSH.
 
 
-## FLSUN OS - 1.2 (Public Release)
+## FLSUN OS - 1.2
 <hr>
 
 - Added **Easy Installer** to facilitate installations and some actions with the simple **`easy-installer`** command in SSH:

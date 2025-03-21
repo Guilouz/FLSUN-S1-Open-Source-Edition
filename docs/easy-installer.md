@@ -40,7 +40,9 @@ hide:
 	<img width="900" src="../assets/images/installer-04.png">
 
 
-	- **Set Klipper configuration to use** → See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a>
+	- **Update Klipper configuration files** → See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a>
+	- **Update Motherboard MCU firmware** → This allows to update Klipper firmware of motherboard when **Katapult** bootloader is installed
+	- **Update MMB Cubic MCU firmware** → This allows to update Klipper firmware of BigTreeTech MMB Cubic
 	- **Backup Klipper configuration files** →This allows to backup Klipper configuration files to a `backup_klipper.zip` compressed file
 	- **Restore Klipper configuration files** → This allows to restore Klipper configuration files from a `backup_klipper.zip` compressed file
 	- **Backup Moonraker database** → This allows to backup Moonraker database to a `backup_moonraker.zip` compressed file

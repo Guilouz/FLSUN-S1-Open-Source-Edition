@@ -4,16 +4,11 @@ hide:
   - toc
 ---
 
-The Open Source OS is already ready to use for the FLSUN S1 Stock version but make sure to always use the latest available Klipper configuration files:
-
-  - **Stock (without Silent Kit)** → for FLSUN S1 Stock (configuration loaded by default)
-  - **Stock (with Silent Kit)** → for FLSUN S1 with Silent Kit (CPAP less noisy)
-  - **MMB Cubic (without Silent Kit)** → for FLSUN S1 Stock and the use of <a href="../bigtreetech-mmb-cubic">MMB Cubic</a>
-  - **MMB Cubic (with Silent Kit)** → for FLSUN S1 with Silent Kit  and the use of <a href="../bigtreetech-mmb-cubic">MMB Cubic</a>
+The Open Source OS is already ready to use and configured for the FLSUN S1 Stock version but make sure to always use the latest available Klipper configuration files after installation.
 
 <br />
 
-- To set the configurations to use, connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
+- To update to latest Klipper configuration files and configure your printer, connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
 
 - In the SSH command prompt window, enter the following command to start **Easy Installer**:
 
@@ -23,21 +18,33 @@ The Open Source OS is already ready to use for the FLSUN S1 Stock version but ma
 
 	<img width="900" src="../assets/images/installer-01.png">
 
-- Enter ++"3"++ for **Extras** menu → ++"1"++ for **Set Klipper configuration to use** → ++"Enter"++ to confirm your choice:
+- Enter ++"3"++ for **Extras** menu → ++"1"++ for **Update Klipper configuration files** → ++"Enter"++ to confirm your choice:
 
 	<img width="900" src="../assets/images/installer-04.png">
 
-- Select the configuration you want and ++"Enter"++ to confirm your choice::
+- Confirm your choice with ++"Y"++ then ++"Enter"++ and configuration files will be downloaded:
 
 	<img width="900" src="../assets/images/installer-05.png">
 
-- The chosen configuration will be downloaded and automatically applied.
+- And configure features you need:
 
-- After that you need to redo all printer calibrations.
+    <img width="900" src="../assets/images/installer-06.png">
+
+- After that, **don't forget to calibrate your printer before starting a print!**:
+
+    Go to the **`Configurations`** → **`Calibrations`** menu.
+    
+    - **Motors Calibration** → To calibrate Motors
+    - **Z Offset Calibration** → To calibrate Z Offset
+    - **Bed Mesh** → To perform Delta Calibration and Bed Leveling
+    - **Input Shaper** → To measure Resonances
+
+- Also make sure you always use the latest version of **Moonraker**, **Klipper** and **KlipperScreen** available via **Mainsail** or **Fluidd**'s Update Manager.
+
+- Enjoy :smiley:
 
 !!! Note
-    The installer downloads the latest version of Klipper configuration files but if needed, they are available <a href="https://github.com/Guilouz/Klipper-Flsun-S1/tree/master/config">here</a>.<br /><br />
-    Also make sure you always have the latest version of **Moonraker**, **Klipper** and **KlipperScreen** available via **Mainsail** or **Fluidd**'s Update Manager.
+    The installer downloads the latest version of Klipper configuration files but if needed, they are available <a href="https://github.com/Guilouz/Klipper-Flsun-S1/tree/master/config/FLSUN%20S1">here</a>.
 
 <br />
 

@@ -41,6 +41,9 @@ hide:
 
 	<img width="600" src="../assets/images/screenshot_08.png">
 
+- **Bed Heating Settings Panel**
+
+	<img width="600" src="../assets/images/screenshot_22.png">
 
 - **Configurations Panel**
 

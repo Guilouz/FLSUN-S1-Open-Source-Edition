@@ -29,6 +29,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
   - Improved Power Loss Recovery<br />
   - Enhanced Delta Calibration support (More accurate and with denser coverage that allows better detection of variations of the bed or in the mechanics of the printer, which can improve print quality)<br />
   - Bed Mesh Type before printing support (Full Bed Mesh, Adaptive Bed Mesh or No Mesh)<br />
+  - Adaptive Bed Heating feature<br />
   - Easy Installer to facilitate programs installation and some actions with the simple **`easy-installer`** command in SSH
   - Hostname based on MAC address<br />
   - Automatic resizing of available storage space<br />

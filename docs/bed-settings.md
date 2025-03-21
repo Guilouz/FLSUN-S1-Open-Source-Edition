@@ -53,15 +53,41 @@ It's enabled by default but if you want to disable it, follow these steps:
   
 - It's accessible from the screen before starting a print:
 
-	<img width="600" src="../assets/images/bed-mesh-01.png">
+	<img width="600" src="../assets/images/bed-settings-01.png">
 
-	<img width="600" src="../assets/images/bed-mesh-02.png">
+	<img width="600" src="../assets/images/screenshot_08.png">
 
 - Or, you can define bed mesh type with **`BED_MESH_SETTINGS`** macro:
 
 	| Mainsail | Fluidd |
 	| :---------: | :---------: |
-	| <img width="400" src="../assets/images/bed-mesh-03.png"> | <img width="400" src="../assets/images/bed-mesh-04.png"> |
+	| <img width="400" src="../assets/images/bed-settings-02.png"> | <img width="400" src="../assets/images/bed-settings-03.png"> |
+
+!!! Note
+    The **Current Status** shown is saved and loaded automatically when the printer starts.
+ 
+ 
+### Bed Heating Settings
+<hr>
+
+- First, make sure you have made the changes in your slicer by following <a href="../slicers-settings">:material-printer-3d: Slicers Settings</a> section.
+
+- It's possible to enable/disable the adaptive bed heating feature before starting a print:
+
+	- **YES** → The areas of the bed are heated depending on the model size (by default)
+	- **NO** → All areas of the bed are always heated (useful for materials that require a fairly high chamber temperature)
+  
+- It's accessible from the screen before starting a print:
+
+	<img width="600" src="../assets/images/bed-settings-04.png">
+
+	<img width="600" src="../assets/images/screenshot_22.png">
+
+- Or, you can define bed mesh type with **`BED_HEATING_SETTINGS`** macro:
+
+	| Mainsail | Fluidd |
+	| :---------: | :---------: |
+	| <img width="400" src="../assets/images/bed-settings-05.png"> | <img width="400" src="../assets/images/bed-settings-06.png"> |
 
 !!! Note
     The **Current Status** shown is saved and loaded automatically when the printer starts.

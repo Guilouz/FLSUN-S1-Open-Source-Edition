@@ -6,15 +6,22 @@ hide:
 Camera Settings Control allows you to configure settings like Brightness, Contrast, Saturation, etc... with macros.<br />
 It's not enabled by default. To enable it:
 
-- Open **`printer.cfg`** file:
+- Open **`config.cfg`** file:
 
     - On **Mainsail** Web Interface go to **`MACHINE`** tab on the left side.
     - On **Fluidd** Web Interface go to **`Configuration`** icon on the left side.
 
 - Remove the first **`#`** symbol at the following line:
 
-    ``` title="printer.cfg"
-    #[include camera_settings.cfg] # Remove comment to use macros to control camera settings
+    ``` title="config.cfg" hl_lines="8"
+    #######################################################
+    # Camera Settings Configuration
+    #######################################################
+
+    # If you want to control Camera settings -> Enable 'camera-control.cfg'
+    # ---------------------------------------------------------------------
+
+    #[include Configurations/camera-control.cfg]
     ```
 
 - Click on **`SAVE & RESTART`** at the top right to save the file.

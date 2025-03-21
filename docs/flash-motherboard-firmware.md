@@ -2,50 +2,20 @@
 icon: octicons/cpu-16
 ---
 
-## Flash with microSD card
+Motherboard firmware needs to be updated to support the latest version of **Klipper**.<br />
+The process explains how to flash the **Klipper** Firmware and the **Katapult** Bootloader (useful for being able to update future Klipper firmwares later).
+
+
+## Prerequisites
 <hr>
 
-- Make sure the printer is turned off.
-
-- Use the H2.0 Allen wrench in the accessory box to remove the screws from the top cover of the printer.
-
-- Insert microSD card into the microSD port on the motherboard:
-  	  
-      | <img src="../assets/images/motherboard-microsd-v1.2.jpg"> | <img src="../assets/images/motherboard-microsd-v1.3.jpg"> |
-      | :---------: | :---------: |
-      | Motherboard v1.2 | Motherboard v1.3 |
-
-
-- Turn on the printer and wait a few seconds, the flash will be done automatically.
-
-- Installation only takes a few seconds, to verify that the firmware has been successfully installed, the file on the microSD card must have been renamed to **`ROBIN_NANO35.BIN.CUR`**.
-
-- Turn off the printer, you can remove the microSD card and screw the printer top cover back on.
-
-- Next, follow <a href="../insert-microsd-card-with-flsun-os-in-core-board">:material-gesture-tap-button: Insert microSD Card with FLSUN OS in Core Board</a> section.
-
-!!! Note 
-    If you want to go back to stock OS you need to reflash motherboard with stock firmware: <a href="../assets/downloads/firmwares/stock/Robin_nano35.bin" >:material-download: Robin_nano35.bin</a>
-
-
-## Flash with ST-LINK V2 (alternative)
-<hr>
-
-If for some reason you are unable to flash the motherboard with the microSD, it may be related to the capacity of your microSD card being too large or that you have flashed the motherboard with the firmware provided by FLSUN (in the Silent Kit guide) which overrides the bootloader and prevents the use of the microSD port.
-
-In this situation, it's necessary to flash the motherboard with a ST-LINK V2 Programmer.
-
-
-### Prerequisites
-<hr>
-
-- Motherboard firmware for Open Source Edition: <a href="../assets/downloads/firmwares/open-source-edition/motherboard_fw.bin" >:material-download: motherboard_fw.bin</a>
+- Combined Katapult Bootloader + Klipper Firmware for Motherboard: <a href="../assets/downloads/firmwares/open-source-edition/motherboard_fw.bin" >:material-download: motherboard_fw.bin</a>
 - STM32 ST-LINK Utility (:material-microsoft-windows: Windows only): <a href="../assets/downloads/firmwares/STM32_ST-LINK_Utility_v4.6.0.zip" >:material-download: STM32_ST-LINK_Utility_v4.6.0.zip</a>
 - ST-LINK V2 Programmer: <a href="https://www.amazon.fr/Youmile-St-Link-Programme-t%C3%A9l%C3%A9chargement-Programmation/dp/B07QBLNDPM">:simple-amazon: Amazon FR</a> / <a href="https://www.amazon.com/HiLetgo-Emulator-Downloader-Programmer-STM32F103C8T6/dp/B07SQV6VLZ">:simple-amazon: Amazon US</a> / <a href="https://www.amazon.ca/ST-Link-Programming-Emulator-Downloader-Random/dp/B01J7N3RE6">:simple-amazon: Amazon CA</a>
 - 4 Dupont cables (usually supplied with the ST-LINK V2 Programmer)
 
 
-### Install STM32 ST-LINK Utility
+## Install STM32 ST-LINK Utility
 <hr>
 
 !!! Note
@@ -83,7 +53,7 @@ In this situation, it's necessary to flash the motherboard with a ST-LINK V2 Pro
     <img width="550" src="../assets/images/stm32-06.png">
 
 
-### Procedure
+## Connect ST-LINK V2 Programmer
 <hr>
 
 - Make sure your printer is turned off.
@@ -118,7 +88,31 @@ In this situation, it's necessary to flash the motherboard with a ST-LINK V2 Pro
 	<img width="700" src="../assets/images/motherboard-02.jpg">
 
 
-- Click on **`File`** → **`Open file...`** and select **`motherboard_fw.bin`** firmware file:
+## Backup Motherboard Firmware
+<hr>
+
+First of all, it's imperative to backup your motherboard's stock firmware in case you want to restore it.
+
+- When ST-LINK V2 Programmer is connected to motherboard, make sure the **Size** is set to **`0x80000`**
+
+	<img width="700" src="../assets/images/motherboard-08.jpg">
+
+
+- Then, click on **`File`** → **`Save file as...`**:
+
+	<img width="700" src="../assets/images/motherboard-09.jpg">
+
+
+- And save the file on your computer with the name you want and the extension **`.bin`**. The file size should be **512 KB**, which is a full dump.
+
+!!! Note
+    If needed, you can download a full dump of FLSUN S1 (not Pro) here: <a href="../assets/downloads/firmwares/stock/motherboard_fw_stock.bin" >:material-download: motherboard_fw_stock.bin</a>
+
+
+## Flash Bootloader and Klipper Firmware
+<hr>
+
+- When ST-LINK V2 Programmer is connected to motherboard, click on **`File`** → **`Open file...`** and select **`katapult.bin`** firmware file:
 
 	<img width="700" src="../assets/images/motherboard-03.jpg">
 
@@ -148,7 +142,97 @@ In this situation, it's necessary to flash the motherboard with a ST-LINK V2 Pro
 - Next, follow <a href="../insert-microsd-card-with-flsun-os-in-core-board">:material-gesture-tap-button: Insert microSD Card with FLSUN OS in Core Board</a> section.
 
 !!! Note 
-    If you want to go back to stock OS you need to reflash motherboard with this stock firmware:<br /><a href="../assets/downloads/firmwares/stock/motherboard_fw_stock.bin" >:material-download: motherboard_fw_stock.bin</a>
+    If you want to go back to stock OS you need to reflash your backup firmware.
+
+
+## Update Klipper Firmware
+<hr>
+
+Once the firmware is flashed, you will be able to update your motherboard MCU with a future **Klipper Firmware**.
+
+!!! Note
+    MCUs have limited write cycles (about 10K cycles for a STM32 chip). Updating the firmware with each Klipper release could shorten the life of your MCU!<br /><br />
+    <i>**When is it necessary to update Klipper firmware?**</i><br />
+    Every time Klipper mentions to update the MCU at startup, no more.
+
+
+- Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
+
+- In the SSH command prompt window, enter the following command to start **Easy Installer**:
+
+    ``` title="SSH Command Prompt"
+    easy-installer
+    ```
+
+    <img width="900" src="../assets/images/installer-01.png">
+
+- Enter ++"3"++ for **Extras** menu → ++"2"++ for **Update Motherboard MCU firmware** → ++"Enter"++ to confirm your choice:
+
+    <img width="900" src="../assets/images/installer-04.png">
+
+- Klipper Firmware will be builded and flashed.
+
+- When it's done, Turn the printer off and on.
+
+
+### Extras
+<hr>
+
+You can build your own **Katapult Bootloader** and **Klipper Firmware** and combine them into a ready-to-flash file. 
+
+- Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
+
+- In the SSH command prompt window, enter the following commands (one at a time) to configure **Katapult Bootloader**:
+
+    ``` title="SSH Command Prompt"
+    cd ~/katapult && git reset --hard && git pull
+    ```
+    ``` title="SSH Command Prompt"
+    make menuconfig
+    ```
+
+- Move on the menu with the ++"↑"++ and ++"↓"++ keys of your keyboard and validate the selected item with the ++"Enter"++ key and select these settings:
+
+    <img width="800" src="../assets/images/katapult-fw-config.png">
+
+
+- Then on your keyboard press the ++"Q"++ key then ++"Y"++ to save configuration.
+
+- Enter the following command to compile **Katapult Bootloader**:
+
+    ``` title="SSH Command Prompt"
+    make clean && make
+    ```
+
+- When it's done, enter the following commands (one at a time) to configure **Klipper Firmware**:
+
+    ``` title="SSH Command Prompt"
+    cd ~/klipper && git reset --hard && git pull
+    ```
+    ``` title="SSH Command Prompt"
+    make menuconfig
+    ```
+
+- Move on the menu with the ++"↑"++ and ++"↓"++ keys of your keyboard and validate the selected item with the ++"Enter"++ key and select these settings:
+
+    <img width="800" src="../assets/images/klipper-fw-config.png">
+
+
+- Then on your keyboard press the ++"Q"++ key then ++"Y"++ to save configuration.
+
+- Enter the following command to compile **Klipper Firmware**:
+
+    ``` title="SSH Command Prompt"
+    make clean && make
+    ```
+
+- When it's done, enter the following command to combine **Katapult Bootloader** and **Klipper Firmware** into a ready-to-flash file:
+
+    ``` title="SSH Command Prompt"
+    ./flsun-os/merge_firmware.py
+    ```
+
+- Get the firmware named **`motherboard_fw.bin`** in **`/home/pi`** directory (on the left panel of **MobaXterm**, right click on the file and select `Download`).
 
 <br />
 

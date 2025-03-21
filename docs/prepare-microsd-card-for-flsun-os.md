@@ -2,6 +2,10 @@
 icon: material/micro-sd
 ---
 
+!!! Note
+    You can also install FLSUN OS on eMMC memory. See <a href="../install-flsun-os-on-emmc">:octicons-cpu-16: Install FLSUN OS on eMMC</a> section.
+
+
 ## Prerequisites
 <hr>
 
@@ -64,7 +68,7 @@ icon: material/micro-sd
     <img width="600" src="../assets/images/rpi-09.png">
 
 
-- Next, follow <a href="../prepare-microsd-card-for-motherboard-firmware">:material-micro-sd: Prepare microSD Card for Motherboard Firmware</a> section.
+- Next, follow <a href="../flash-motherboard-firmware">:octicons-cpu-16: Flash Motherboard Firmware</a> section.
 
 <br />
 

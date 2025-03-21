@@ -33,18 +33,18 @@ You can lock the screen with password. Note this is not a secure system, it's sa
 
 You can control the short press of the power button (right of the screen).
 
-- Open **`macros.cfg`** file:
+- Open **`macros.cfg`** file in **`Configurations`** folder:
 
 	- On **Mainsail** Web Interface go to **`MACHINE`** tab on the left side.
 	- On **Fluidd** Web Interface go to **`Configuration`** icon on the left side.
 
-- Add this macro by replacing the Gcode command with whatever you want to run when you short press the power button:
+- And edit this macro by replacing the Gcode command with whatever you want to run when you short press the power button:
 
 	``` title="macros.cfg" hl_lines="4"
-	[gcode_macro PWR_KEY]
+	[gcode_macro _PWR_KEY]
 	description: Short press for power button
 	gcode:
-    M117 Short Press done!
+	  M117 Short Press done!
 	```
 
 - Once done, click on **`SAVE & RESTART`** button at the top right to save the file.

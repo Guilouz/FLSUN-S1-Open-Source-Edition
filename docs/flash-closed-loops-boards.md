@@ -2,7 +2,7 @@
 icon: octicons/cpu-16
 ---
 
-This new firmware improves motor resonance and fixes much of the salmon skin encountered on the stock firmware. It's the same firmware used on S1 Pro and it's recommended to update.<br />
+This new firmware improves stepper motors resonances and fixes much of the salmon skin encountered on the stock firmware. It's the same firmware used on S1 Pro and it's recommended to update for FLSUN S1 users.<br />
 
 Although it is possible to flash the firmware without having the Dupont cable provided in the Silent Kit, for the sake of simplicity this is what we will cover here.
 

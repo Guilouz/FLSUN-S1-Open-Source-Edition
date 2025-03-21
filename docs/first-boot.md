@@ -19,18 +19,6 @@ hide:
 
 - Next, take a look to <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section.
 
-- Enjoy :smiley:
-
-!!! WARNING 
-    **Don't forget to calibrate your printer before starting a print!**
-
- 	To do this, go to the **`Configurations`** → **`Calibrations`** menu.
-
- 	- **Motors Calibration** → To calibrate Motors
- 	- **Z Offset Calibration** → To calibrate Z Offset
- 	- **Bed Mesh** → To perform Delta Calibration and Bed Leveling
- 	- **Input Shaper** → To measure Resonances
-
 <br />
 
 **If you like my work, don't hesitate to support me by paying me a 🍺 or a ☕. Thank you 🙂**
