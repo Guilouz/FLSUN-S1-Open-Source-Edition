@@ -172,8 +172,6 @@ Once the firmware is flashed, you will be able to update your motherboard MCU wi
 
 - Klipper Firmware will be builded and flashed.
 
-- When it's done, Turn the printer off and on.
-
 
 ### Extras
 <hr>
