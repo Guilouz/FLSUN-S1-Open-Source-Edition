@@ -56,7 +56,7 @@ It can be enabled with **Easy Installer**. See <a href="../klipper-configuration
 
 - Click on **`SAVE & RESTART`** at the top right to save the file.
 
-- Make sure you have configured you slicer for Timelapse, see <a href="../slicers-settings/#settings-for-timelapse">:material-printer-3d: Slicers Settings</a>section.
+- Make sure you have configured you slicer for Timelapse, see <a href="../slicers-settings/#settings-for-timelapse">:material-printer-3d: Slicers Settings</a> section.
 
 <br />
 
