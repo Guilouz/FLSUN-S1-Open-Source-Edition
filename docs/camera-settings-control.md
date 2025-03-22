@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 Camera Settings Control allows you to configure settings like Brightness, Contrast, Saturation, etc... with macros.<br />
-It's not enabled by default. To enable it:
+It can be enabled with **Easy Installer**.<br />See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
 
 - Open **`config.cfg`** file:
 

@@ -99,7 +99,7 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
 ## Settings for Timelapse
 <hr>
 
-Timelapse feature is enabled by default but to use the **layermacro** mode which grabs a frame every layer change you need to add the **`TIMELAPSE_TAKE_FRAME`** macro to your slicer so that it is added to the Gcode before a layer change.
+Timelapse feature can be enabled with **Easy Installer** and to use the **layermacro** mode which grabs a frame every layer change you need to add the **`TIMELAPSE_TAKE_FRAME`** macro to your slicer so that it is added to the Gcode before a layer change.
 
 ### OrcaSlicer / FlsunSlicer
 <hr>
