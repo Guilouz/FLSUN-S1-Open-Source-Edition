@@ -83,6 +83,16 @@ The process explains how to flash the **Klipper** Firmware and the **Katapult** 
     <img width="700" src="../assets/images/stm32-09.png">
 
 
+    If you have this message, This means that the memory is protected against read out:
+    
+    <img width="700" src="../assets/images/stm32-10.png">
+
+
+    Click on **`Target`** → **`Option Bytes`** and set **`Read Out Protection`** parameter to **Disabled**, and then click **`Apply`** button:
+    
+    <img width="450" src="../assets/images/stm32-11.png">
+
+
 - If the connection is correct, you should get this:
 
 	<img width="700" src="../assets/images/motherboard-02.jpg">
