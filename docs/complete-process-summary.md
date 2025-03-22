@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Here are the detailed steps to install and use **FLSUN OS**:
+Here are the steps required to install and use **FLSUN OS**:
 
 
 - <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd:Prepare microSD Card for FLSUN OS</a> or <a href="../install-flsun-os-on-emmc">:octicons-cpu-16: Install FLSUN OS on eMMC</a>
