@@ -57,7 +57,7 @@ Although it is possible to flash the firmware without having the Dupont cable pr
     <img width="550" src="../assets/images/stm32-06.png">
 
 
-### Procedure
+### Flash Firmware
 <hr>
 
 - Make sure your printer is turned off and unplug the 3 cables from the Closed Loops Board:
