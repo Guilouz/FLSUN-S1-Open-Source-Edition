@@ -4,7 +4,15 @@ hide:
   - toc
 ---
 Timelapse is a 3rd party Moonraker component to create timelapse of 3D prints.<br />
-It can be enabled with **Easy Installer**.<br />See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
+It can be enabled with **Easy Installer**. See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
+
+- Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
+
+- In the SSH command prompt window, enter the following command:
+
+	``` title="SSH Command Prompt"
+	ln -srfn "/home/pi/moonraker-timelapse/klipper_macro/timelapse.cfg" "/home/pi/printer_data/config/timelapse.cfg"
+	```
 
 - Open **`config.cfg`** file:
 
@@ -47,14 +55,6 @@ It can be enabled with **Easy Installer**.<br />See <a href="../klipper-configur
     ```
 
 - Click on **`SAVE & RESTART`** at the top right to save the file.
-
-- Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).
-
-- In the SSH command prompt window, enter the following command:
-
-	``` title="SSH Command Prompt"
-	ln -srfn "/home/pi/moonraker-timelapse/klipper_macro/timelapse.cfg" "/home/pi/printer_data/config/timelapse.cfg"
-	```
 
 - Make sure you have configured you slicer for Timelapse, see <a href="../slicers-settings/#settings-for-timelapse">:material-printer-3d: Slicers Settings</a>section.
 
