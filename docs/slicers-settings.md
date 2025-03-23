@@ -99,9 +99,9 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
     ```
 
- - Go to **Printer Settings** → **General** ** → **Firmware** → **G-code flavor** and define this setting to **`Klipper`**.
+ - Go to **Printer Settings** → **General** → **Firmware** → **G-code flavor** and define this setting to **`Klipper`**.
  
- - Go to **Printer Settings** → **Output options** ** → **Output file** → **Label objects** and define this settings to **`Firmware-specific`**.
+ - Go to **Printer Settings** → **Output options** → **Output file** → **Label objects** and define this settings to **`Firmware-specific`**.
  
 
 ## Settings for Timelapse
