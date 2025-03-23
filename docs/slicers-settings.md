@@ -35,6 +35,8 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
     ```
 
+- Also make sure that **`Label object`** and **`Exclude object`** settings are enabled in the **`Others`** tab of the print settings.
+
 
 ### FlsunSlicer
 <hr>
@@ -66,6 +68,8 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
     ```
 
+- Also make sure that **`Label object`** and **`Exclude object`** settings are enabled in the **`Others`** tab of the print settings.
+
 
 ###  PrusaSlicer / SuperSlicer
 <hr>
@@ -95,6 +99,10 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
     SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
     ```
 
+ - Go to **Printer Settings** → **General** ** → **Firmware** → **G-code flavor** and define this setting to **`Klipper`**.
+ 
+ - Go to **Printer Settings** → **Output options** ** → **Output file** → **Label objects** and define this settings to **`Firmware-specific`**.
+ 
 
 ## Settings for Timelapse
 <hr>
