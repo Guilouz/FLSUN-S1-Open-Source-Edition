@@ -3,7 +3,7 @@ icon: material/video
 hide:
   - toc
 ---
-Timelapse is a 3rd party Moonraker component to create timelapse of 3D prints.<br />
+Moonraker Timelapse is a 3rd party Moonraker component to create timelapse of 3D prints.<br />
 It can be enabled with **Easy Installer**. See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
 
 - Connect to printer over SSH (see <a href="../ssh-connection">:material-console: SSH Connection</a> section).

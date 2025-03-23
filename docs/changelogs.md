@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-## FLSUN OS - 1.5
+## FLSUN OS - 1.5.1
 <hr>
 
 !!! Important
