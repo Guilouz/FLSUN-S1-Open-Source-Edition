@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Open Source OS is already ready to use and configured for the FLSUN S1 Stock version but make sure to always use the latest available builds and Klipper configuration files after installation.
+The Open Source OS is already ready to use and configured for the FLSUN S1 Stock version but you need to configure it if you use Silent Fan Upgrade Kit (CPAP less noisy) or S1 Pro.
 
 <br />
 
