@@ -8,7 +8,7 @@ hide:
 <hr>
 
 !!! Important
-    **This new OS version must be reinstalled!<br />
+    **This new OS version must be reinstalled!**<br />
     In the future, it will no longer be necessary to reinstall the OS to update to a new OS version.
  
 - Upgraded Kernel to v6.1.99 a little faster and which now gives access to the 1 GB of RAM (700 MB on Stock OS).
