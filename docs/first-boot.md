@@ -11,13 +11,13 @@ hide:
 
 	If not, your image was not correctly written to your microSD card, try another microSD card or retry: <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a>  
 
-- Once you are on the **KlipperScreen** interface, click on **`Configurations`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner.
+- When it first starts, the OS will perform several actions (resizing storage size, configuring Web interfaces, etc...) and the printer will restart once finished.
+
+- After reboot, once you are on the **KlipperScreen** interface, click on **`Configurations`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner.
 
 - Wait for **Moonraker** and **Klipper** to connect, if not click **`Retry`** button.<br />The LEDs on the left side of the screen should light up white as soon as the connection is established.
 
-- Then, restart the printer (this is important for the proper functioning of the OS).
-
-- Next, take a look to <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section.
+- Next, take a look to <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a> section.
 
 <br />
 

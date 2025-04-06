@@ -4,6 +4,46 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 2.0
+<hr>
+
+!!! Important
+    **This new OS version must be reinstalled!<br />
+    In the future, it will no longer be necessary to reinstall the OS to update to a new OS version.
+ 
+- Upgraded Kernel to v6.1.99 a little faster and which now gives access to the 1 GB of RAM (700 MB on Stock OS).
+- Enabled ZRAM swap to add extra 512 MB ram for safety.
+- Introduced **FLSUN OS Dependencies** that can be updated via Update Manager to avoid having to reinstall the OS each time:
+    - Allows you to update system files.
+    - Allows you to update **Easy Installer** with new changes.
+    - Automatically checks configuration files and notifies you if a new update is available (when updating **Klipper**).
+- Improved **Easy Installer**:
+    - Added an **`Update`** menu for all update features.
+    - Reworked **`Update Klipper Configuration Files`** feature. It now only updates files that need to be updated.
+    - It is now possible to configure the printer at any time without needing to download the configuration files.
+- Updated **Klipper** configuration files:
+    - Added new **`PRINTER_SETUP_WIZARD`** macro to configure your printer from Web interface.
+    - Added new **`UPDATE_CONFIGURATION_FILES`** macro to update Klipper configuration files from Web interface.
+    - Fixed issue with **`Adapted Bed Heating`** feature not working properly.
+    - Fixed issue with **`Adapted Bed Heating`** feature when first layer has different temperature than other layers.
+    - Necessary End Gcodes are now correctly applied when printing is canceled.
+    - Added wait for current moves to finish before restarting Klipper during calibrations.
+    - Added new macros for updates features.
+    - Improved logic of some macros.
+    - Updated **Moonraker** configurations for **FLSUN OS Dependencies**.
+ - Updated **KlipperScreen**:
+    - Reorganization of menus.
+    - Removed calibration warning on **`Print Panel`** which sometimes created false positives.
+    - Added new panel with QR Code to directly access the Wiki on **`System Panel`**.
+    - Added possibility to update **Klipper** configuration files on **`Updates Panel`**.
+    - Added possibility to configure your printer on **`System Panel`**.
+    - Improved **`Jobs Status Panel`**.
+    - Improved **`LED Panel`**.
+    - Improved **`Fine Tune Panel`**.
+- Updated Moonraker and KlipperScreen environments.
+- Updated Wiki for this new OS.
+
+
 ## FLSUN OS - 1.5.1
 <hr>
 

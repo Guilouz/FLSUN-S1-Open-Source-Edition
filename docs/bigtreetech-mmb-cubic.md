@@ -128,7 +128,7 @@ Here we will see the addition of Neopixels and a chamber temperature sensor.
 ### Configuration
 <hr>
 
-MMB Cubic can be configured automatically with **Easy Installer**.<br />See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a> section but if you need to configure it manually follow these steps.
+MMB Cubic can be configured automatically with <a href="../easy-installer">:material-star: Easy Installer</a> or with **Printer Setup Wizard** from **KlipperScreen** or Web interface (<br />see <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a> section) but if you need to configure it manually follow these steps.
 
 - Open **`config.cfg`** file:
 

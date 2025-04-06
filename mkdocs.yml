@@ -122,9 +122,9 @@ nav:
         - Insert microSD Card with FLSUN OS in Core Board: insert-microsd-card-with-flsun-os-in-core-board.md
         - First Boot: first-boot.md
     - CONFIGURATIONS:
+        - Update and Configure Printer: update-and-configure-printer.md
         - SSH Connection: ssh-connection.md
         - Update Time Zone: update-time-zone.md
-        - Klipper Configurations Files: klipper-configurations-files.md
         - Slicers Settings: slicers-settings.md
         - Web Interfaces: web-interfaces.md
         - Bed Settings: bed-settings.md

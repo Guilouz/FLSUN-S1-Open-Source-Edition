@@ -36,10 +36,10 @@ hide:
  
 - You can now screw the screen box back on, reconnect the cables and reattach it to the printer.
 
-    !!! Note
-        There is no need to reconnect the **USB 1** port cable, it is for the cameras on the hotend which are not used.<br /><br />
+    !!! Warning
+        **To avoid issues with camera detection, do not reconnect the cable from the USB 1 port**, it is for the cameras on the hotend which are not used.<br /><br />
         You can also remove them from the effector to save a little weight:<br />
-        <img width="1100" src="../assets/images/hotend_camera.jpg">
+        <img width="900" src="../assets/images/hotend_camera.jpg">
 
 - Next, follow <a href="../first-boot">:material-power-settings: First Boot</a> section.
 

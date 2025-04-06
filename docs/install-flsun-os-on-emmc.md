@@ -177,6 +177,11 @@ The eMMC offers faster read and write speed and is less prone to physical corrup
 
 - You can now turn off the printer, screw the screen box back on, reconnect the cables and reattach it to the printer.
 
+    !!! Warning
+        **To avoid issues with camera detection, do not reconnect the cable from the USB 1 port**, it is for the cameras on the hotend which are not used.<br /><br />
+        You can also remove them from the effector to save a little weight:<br />
+        <img width="1100" src="../assets/images/hotend_camera.jpg">
+
 - Now you have FLSUN OS installed on the eMMC and it is still possible to boot from a microSD card if needed.
 
 <br />

@@ -16,9 +16,9 @@ Here are the steps required to install and use **FLSUN OS**:
 - <a href="../flash-closed-loops-boards">:octicons-cpu-16: Flash Closed Loops Boards</a> (Optional but recommended for S1 users)
 - <a href="../insert-microsd-card-with-flsun-os-in-core-board">:material-gesture-tap-button: Insert microSD Card with FLSUN OS in Core Board</a> if you use microSD Card for **FLSUN OS** (and not on eMMC)
 - <a href="../first-boot">:material-power-settings: First Boot</a>
+- <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a>
 - <a href="../ssh-connection">:material-console: SSH Connection</a>
 - <a href="../update-time-zone">:material-map-clock: Update Time Zone</a>
-- <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a>
 - <a href="../slicers-settings">:material-printer-3d: Slicers Settings</a>
 
 <br />

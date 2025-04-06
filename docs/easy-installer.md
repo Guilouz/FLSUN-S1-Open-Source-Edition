@@ -35,21 +35,29 @@ hide:
 	- **Remove GuppyFLO** → See <a href="../remote-access/#remove-guppyflo">:material-earth: Remote Access</a>
 
 
-	### Extras Menu
+	### Update Menu
 
 	<img width="900" src="../assets/images/installer-04.png">
 
 
-	- **Update Klipper configuration files** → See <a href="../klipper-configurations-files">:material-file-restore: Klipper Configurations Files</a>
+	- **Update Klipper configuration files** → This allows to update your printer with latest Klipper configuration files
+	- **Printer Setup Wizard** → This helps you to configure your printer with the desired features
 	- **Update Motherboard MCU firmware** → This allows to update Klipper firmware of motherboard when **Katapult** bootloader is installed
 	- **Update MMB Cubic MCU firmware** → This allows to update Klipper firmware of BigTreeTech MMB Cubic
+	- **Update Debian packages** → This allows to update installed packages from Debian repository
+
+
+	### Extras Menu
+
+	<img width="900" src="../assets/images/installer-05.png">
+
+
 	- **Backup Klipper configuration files** →This allows to backup Klipper configuration files to a `backup_klipper.zip` compressed file
 	- **Restore Klipper configuration files** → This allows to restore Klipper configuration files from a `backup_klipper.zip` compressed file
 	- **Backup Moonraker database** → This allows to backup Moonraker database to a `backup_moonraker.zip` compressed file
 	- **Restore Moonraker database** → This allows to restore Moonraker database from a `backup_moonraker.zip` compressed file
-	- **Delete cache and logs files** → This allows to delete temporary files and log files
-	- **Update Debian packages** → This allows to update installed packages from Debian repository
 	- **Restore Web-UI default settings** → This allows to restore the pre-configured settings of Mainsail and Fluidd Web interfaces
+	- **Delete cache and logs files** → This allows to delete temporary files and log files
 	- **Restore SSH access for Stock OS** → This allows to restore SSH access when you are running FLSUN's Stock OS
 
 <br />

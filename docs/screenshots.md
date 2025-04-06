@@ -41,9 +41,11 @@ hide:
 
 	<img width="600" src="../assets/images/screenshot_08.png">
 
+
 - **Bed Heating Settings Panel**
 
 	<img width="600" src="../assets/images/screenshot_22.png">
+
 
 - **Configurations Panel**
 
@@ -81,14 +83,19 @@ hide:
 	<img width="600" src="../assets/images/screenshot_16.png">
 
 
-- **Macros Panel**
-
-	<img width="600" src="../assets/images/screenshot_17.png">
-
-
 - **LED Panel**
 
 	<img width="600" src="../assets/images/screenshot_21.png">
+
+
+- **Neopixels LED Panel**
+
+	<img width="600" src="../assets/images/screenshot_28.png">
+
+
+- **Brightness Panel**
+
+	<img width="600" src="../assets/images/screenshot_19.png">
 
 
 - **Spoolman Panel**
@@ -96,9 +103,34 @@ hide:
 	<img width="600" src="../assets/images/screenshot_18.png">
 
 
-- **Brightness Panel**
+- **Macros Panel**
 
-	<img width="600" src="../assets/images/screenshot_19.png">
+	<img width="600" src="../assets/images/screenshot_17.png">
+
+
+- **Console Panel**
+
+	<img width="600" src="../assets/images/screenshot_23.png">
+
+
+- **Updates Panel**
+
+	<img width="600" src="../assets/images/screenshot_24.png">
+
+
+- **System Panel**
+
+	<img width="600" src="../assets/images/screenshot_25.png">
+
+
+- **System Info Panel**
+
+	<img width="600" src="../assets/images/screenshot_26.png">
+
+
+- **About Panel**
+
+	<img width="600" src="../assets/images/screenshot_27.png">
 
 
 - **Shutdown Panel**
