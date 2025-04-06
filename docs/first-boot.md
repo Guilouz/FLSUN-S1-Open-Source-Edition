@@ -9,7 +9,7 @@ hide:
 	<img width="600" src="../assets/images/bootlogo.jpg">
 
 
-	If not, your image was not correctly written to your microSD card, try another microSD card or retry: <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a>  
+	If not, your image was not correctly written, retry: <a href="../prepare-microsd-card-for-flsun-os">:material-micro-sd: Prepare microSD Card for FLSUN OS</a>  or <a href="../install-flsun-os-on-emmc">:octicons-cpu-16: Install FLSUN OS on eMMC</a>
 
 - When it first starts, the OS will perform several actions (resizing storage size, configuring Web interfaces, etc...) and the printer will restart once finished.
 
