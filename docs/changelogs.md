@@ -40,7 +40,7 @@ hide:
     - Improved **`Jobs Status Panel`**.
     - Improved **`LED Panel`**.
     - Improved **`Fine Tune Panel`**.
-- Updated Moonraker and KlipperScreen environments.
+- Updated **Moonraker** and **KlipperScreen** environments.
 - Updated Wiki for this new OS.
 
 
