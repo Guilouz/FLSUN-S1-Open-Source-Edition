@@ -13,9 +13,7 @@ hide:
 
 - When it first starts, the OS will perform several actions (resizing storage size, configuring Web interfaces, etc...) and the printer will restart once finished.
 
-- After reboot, once you are on the **KlipperScreen** interface, click on **`Configurations`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner.
-
-- Wait for **Moonraker** and **Klipper** to connect, if not click **`Retry`** button.<br />The LEDs on the left side of the screen should light up white as soon as the connection is established.
+- After reboot, once you are on the **KlipperScreen** interface, click on **`Configurations`** → **`System`** → **`Network`** and connect to your WiFi network.<br />Your local IP address should be displayed in the top right corner (to access the Web interface).
 
 - Next, take a look to <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a> section.
 
