@@ -237,7 +237,7 @@ You can build your own **Katapult Bootloader** and **Klipper Firmware** and comb
 - When it's done, enter the following command to combine **Katapult Bootloader** and **Klipper Firmware** into a ready-to-flash file:
 
     ``` title="SSH Command Prompt"
-    ./flsun-os/system/merge_firmware.py
+    cd && ./flsun-os/system/merge_firmware.py
     ```
 
 - Get the firmware named **`motherboard_fw.bin`** in **`/home/pi`** directory (on the left panel of **MobaXterm**, right click on the file and select `Download`).
