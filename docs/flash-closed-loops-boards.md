@@ -14,7 +14,7 @@ Although it is possible to flash the firmware without having the Dupont cable pr
 - Dupont connection cable provided with FLSUN Silent Kit
 - STL file to print: <a href="../assets/downloads/firmwares/Closed_Loop_Boards_Tool.stl">:material-download: Closed_Loop_Boards_Tool.stl</a>
 - STM32 ST-LINK Utility (:material-microsoft-windows: Windows only): <a href="../assets/downloads/firmwares/STM32_ST-LINK_Utility_v4.6.0.zip" >:material-download: STM32_ST-LINK_Utility_v4.6.0.zip</a>
-- ST-LINK V2 Programmer: <a href="https://www.amazon.fr/Youmile-St-Link-Programme-t%C3%A9l%C3%A9chargement-Programmation/dp/B07QBLNDPM">:simple-amazon: Amazon FR</a> / <a href="https://www.amazon.com/HiLetgo-Emulator-Downloader-Programmer-STM32F103C8T6/dp/B07SQV6VLZ">:simple-amazon: Amazon US</a> / <a href="https://www.amazon.ca/ST-Link-Programming-Emulator-Downloader-Random/dp/B01J7N3RE6">:simple-amazon: Amazon CA</a>
+- ST-LINK V2 Programmer: <a href="https://www.amazon.fr/ICQUANZX-Programmation-T%C3%A9l%C3%A9chargeur-d%C3%A9mulateur-al%C3%A9atoire/dp/B07YX83NSL">:simple-amazon: Amazon FR</a> / <a href="https://www.amazon.com/HiLetgo-Emulator-Downloader-Programmer-STM32F103C8T6/dp/B07SQV6VLZ">:simple-amazon: Amazon US</a> / <a href="https://www.amazon.ca/ST-Link-Programming-Emulator-Downloader-Random/dp/B01J7N3RE6">:simple-amazon: Amazon CA</a>
 
 !!! Note 
     If you want to restore stock firmware for Closed Loops Boards use this firmware:<br /><a href="../assets/downloads/firmwares/stock/closed_loop_board_fw_stock.bin" >:material-download: closed_loop_board_fw_stock.bin</a>
