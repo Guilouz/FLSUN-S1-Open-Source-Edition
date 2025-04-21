@@ -116,7 +116,9 @@ First of all, it's imperative to backup your motherboard's stock firmware in cas
 - And save the file on your computer with the name you want and the extension **`.bin`**. The file size should be **512 KB**, which is a full dump.
 
 !!! Note
-    If needed, you can download a full dump of FLSUN S1 (not Pro) here: <a href="../assets/downloads/firmwares/stock/motherboard_fw_stock.bin" >:material-download: motherboard_fw_stock.bin</a>
+    If needed, you can download a full dump of motherboard:
+    - FLSUN S1 → <a href="../assets/downloads/firmwares/stock/motherboard_s1_fw_stock.bin" >:material-download: motherboard_s1_fw_stock.bin</a><br />
+    - FLSUN S1 Pro → <a href="../assets/downloads/firmwares/stock/motherboard_s1pro_fw_stock.bin" >:material-download: motherboard_s1pro_fw_stock.bin</a>
 
 
 ## Flash Bootloader and Klipper Firmware
