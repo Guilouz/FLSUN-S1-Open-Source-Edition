@@ -1,5 +1,7 @@
 ---
 icon: octicons/cpu-16
+hide:
+  - toc
 ---
 
 When you have already flashed the firmware (with the Katapult Bootloader), you will be able to update your motherboard MCU with a future **Klipper Firmware**.
