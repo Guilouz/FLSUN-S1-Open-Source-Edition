@@ -18,7 +18,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
 **What's included:**
 
   - Upgraded kernel a little faster and which gives access to the 1 GB of RAM (700 MB on Stock OS)<br />
-  - Enabled ZRAM swap to add extra 512 MB ram<br />
+  - Enabled ZRAM swap to add extra 512 MB of RAM<br />
   - Moonraker (latest build)<br />
   - Klipper (latest build with modifications for S1 support, repo is available <a href="https://github.com/Guilouz/Klipper-Flsun-S1">:material-github: here</a>)<br />
   - KlipperScreen (latest build with modifications for S1 support, repo is available <a href="https://github.com/Guilouz/KlipperScreen-Flsun-S1">:material-github: here</a>)<br />
