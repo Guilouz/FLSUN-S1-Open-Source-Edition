@@ -107,7 +107,7 @@ In order for the Bed Mesh Selection to work it's necessary to modify the Start G
 ## Settings for Timelapse
 <hr>
 
-Timelapse feature can be configured automatically with <a href="../easy-installer">:material-star: Easy Installer</a> or with **Printer Setup Wizard** from **KlipperScreen** or Web interface (<br />see <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a> section).<br />
+Timelapse feature can be configured automatically with <a href="../easy-installer">:material-star: Easy Installer</a> or with **Printer Setup Wizard** from **KlipperScreen** or Web interface (see <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a> section).<br />
 To use the **layermacro** mode which grabs a frame every layer change you need to add the **`TIMELAPSE_TAKE_FRAME`** macro to your slicer so that it is added to the Gcode before a layer change.
 
 ### OrcaSlicer / FlsunSlicer
