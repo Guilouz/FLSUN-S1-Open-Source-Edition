@@ -13,7 +13,7 @@ Here are the steps required to install and use **FLSUN OS**:
 	- <a href="../flash-motherboard-firmware/#connect-st-link-v2-programmer">Connect ST-LINK V2 Programmer</a>
 	- <a href="../flash-motherboard-firmware/#backup-motherboard-firmware">Backup Motherboard Firmware</a>
 	- <a href="../flash-motherboard-firmware/#flash-bootloader-and-klipper-firmware">Flash Bootloader and Klipper Firmware</a>
-- <a href="../flash-closed-loops-boards">:octicons-cpu-16: Flash Closed Loops Boards</a> (Optional but recommended for S1 users)
+- <a href="../flash-closed-loops-boards">:octicons-cpu-16: Flash Closed Loops Boards</a> (Optional but recommended for S1 users only, **not for S1 Pro users**)
 - <a href="../insert-microsd-card-with-flsun-os-in-core-board">:material-gesture-tap-button: Insert microSD Card with FLSUN OS in Core Board</a> if you use microSD Card for **FLSUN OS** (and not on eMMC)
 - <a href="../first-boot">:material-power-settings: First Boot</a>
 - <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a>
