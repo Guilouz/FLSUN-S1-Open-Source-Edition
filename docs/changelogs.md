@@ -4,6 +4,21 @@ hide:
   - toc
 ---
 
+
+## FLSUN OS - 2.0.1
+<hr>
+
+!!! Note
+    To update to this version, just update **`FLSUN-OS-Dependencies`** in **Update Manager**.
+
+- Updated motherboard configuration for firmware compilation.
+- Updated **KlipperScreen**:
+    - Added interactive top bar icons during heating.
+    - Added possibility to lock screen during printing (in shortcuts bar).
+    - Moved **`LED`** function to shortcuts bar.
+- Updated **Moonraker**, **Klipper** and **KlipperScreen** environments.
+
+
 ## FLSUN OS - 2.0
 <hr>
 
