@@ -4,6 +4,15 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 2.0.2
+<hr>
+
+!!! Note
+    To update to this version, just update **`FLSUN-OS-Dependencies`** in **Update Manager**.
+
+- Updated motherboard configuration for firmware compilation.
+- Updated **Moonraker**, **Klipper** and **KlipperScreen** environments.
+
 
 ## FLSUN OS - 2.0.1
 <hr>
