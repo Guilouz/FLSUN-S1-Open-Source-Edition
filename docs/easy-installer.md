@@ -58,7 +58,6 @@ hide:
 	- **Restore Moonraker database** → This allows to restore Moonraker database from a `backup_moonraker.zip` compressed file
 	- **Restore Web-UI default settings** → This allows to restore the pre-configured settings of Mainsail and Fluidd Web interfaces
 	- **Delete cache and logs files** → This allows to delete temporary files and log files
-	- **Restore SSH access for Stock OS** → This allows to restore SSH access when you are running FLSUN's Stock OS
 
 <br />
 
