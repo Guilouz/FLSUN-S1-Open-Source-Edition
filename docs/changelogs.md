@@ -4,6 +4,23 @@ hide:
   - toc
 ---
 
+## FLSUN OS - 3.0
+<hr>
+
+!!! Important
+    **This build is a new OS version and must be reinstalled!**<br />
+
+- Upgraded OS to new :simple-debian: ***Debian 13 Trixie*** and ***Python 3.13*** (gain is mainly in memory management and +5-10% on responsiveness).
+- Updated **KlipperScreen**:
+    - Add caching for icons, pixbufs and keyboard widgets. This significantly improves the fluidity and loading of panels.
+    - Fixed Shutdown/Reboot buttons which did not work.
+- Updated **Easy Installer**:
+    - Removed **Restore SSH access for Stock OS** function since SSH access is now available in the latest Stock firmware.
+- Updated **Moonraker**, **Klipper** and **KlipperScreen** environments with ***Python 3.13***.
+- Improved **Klipper** configurations files.
+- Contains all current up-to-date builds and configuration files.
+
+
 ## FLSUN OS - 2.0.2
 <hr>
 
