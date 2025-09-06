@@ -45,7 +45,7 @@ Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Editio
 
 **Known issues:**
 
-- With S1 Pro, CPAP fan turns on when OS starts until Klipper connects (even though the fan pin is disabled at boot in the firmware) but works fine after.
+None.
 
 <br />
 
