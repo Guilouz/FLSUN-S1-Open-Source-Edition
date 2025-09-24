@@ -8,10 +8,10 @@
 
 **FLSUN-OS** is an Open Source version for **FLSUN S1** and **FLSUN S1 Pro**.
 
-This new OS is based on ***Debian 12 Bookworm*** and is ready to use. It's more stable and has better performance.<br />
-It has the advantage of having a support until June 2028 unlike Debian 10 (Stock OS) which expired in June 2024.
+This new OS is based on ***Debian 13 Trixie*** and is ready to use. It's more stable and has better performance.<br />
+It has the advantage of having a support until June 2030 unlike Debian 10 (Stock OS) which expired in June 2024.
 
-Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Edition OS** (FLSUN-OS): <a href="https://browser.geekbench.com/v5/cpu/compare/22823940?baseline=22823878">Geekbench.com</a>
+Benchmark comparison between **STOCK OS** (Board flsun) and **Open Source Edition OS** based on Debian 12 (FLSUN-OS): <a href="https://browser.geekbench.com/v5/cpu/compare/22823940?baseline=22823878">Geekbench.com</a>
 
 **What's included:**
 
