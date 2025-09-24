@@ -4,6 +4,8 @@
 
 ---
 
+![GitHub Downloads](https://img.shields.io/github/downloads/Guilouz/FLSUN-S1-Open-Source-Edition/total)
+
 **FLSUN-OS** is an Open Source version for **FLSUN S1** and **FLSUN S1 Pro**.
 
 This new OS is based on ***Debian 12 Bookworm*** and is ready to use. It's more stable and has better performance.<br />
