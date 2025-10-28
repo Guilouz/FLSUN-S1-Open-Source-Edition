@@ -58,6 +58,7 @@ hide:
 	- **Restore Moonraker database** → This allows to restore Moonraker database from a `backup_moonraker.zip` compressed file
 	- **Restore Web-UI default settings** → This allows to restore the pre-configured settings of Mainsail and Fluidd Web interfaces
 	- **Delete cache and logs files** → This allows to delete temporary files and log files
+	- **Extend storage partition** → This allows to extend storage partition to take advantage of the full storage (microSD card or eMMC)
 
 <br />
 
