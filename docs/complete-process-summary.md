@@ -19,7 +19,7 @@ Here are the steps required to install and use **FLSUN OS**:
 - <a href="../update-and-configure-printer">:material-file-restore: Update and Configure Printer</a>
 - <a href="../ssh-connection">:material-console: SSH Connection</a>
 - <a href="../update-time-zone">:material-map-clock: Update Time Zone</a>
-- <a href="../easy-installer">:material-star: Extend storage partition with **Easy-Installer** (in Extras Menu) to take advantage of the full storage (microSD card or eMMC)</a>
+- <a href="../easy-installer">:material-star: Extend storage partition with **Easy-Installer**</a> (in Extras Menu) to take advantage of the full storage (microSD card or eMMC)
 - <a href="../slicers-settings">:material-printer-3d: Slicers Settings</a>
 
 <br />
