@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FLSUN S1 - Open Source Edition</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/home.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<section id="header">
+			<div class="inner">
+				<h1><strong>FLSUN S1</strong></h1><br />
+				<h2>Open Source Edition</h2>
+				<ul class="actions special">
+					<li><a href="./about/" class="button" id="discoverLink">DISCOVER WHAT FLSUN DIDN'T DO</a></li>
+				</ul>
+			</div>
+		</section>
+		<script src="assets/javascript/jquery.min.js"></script>
+		<script src="assets/javascript/browser.min.js"></script>
+		<script src="assets/javascript/breakpoints.min.js"></script>
+		<script src="assets/javascript/main.js"></script>
+		<script>
+			document.getElementById("discoverLink").addEventListener("click", function(event) {
+				event.preventDefault();
+				const body = document.body;
+				body.classList.add("fading");
+				setTimeout(() => {
+					window.location.href = this.href;
+				}, 1000);
+			});
+		</script>
+	</body>
+</html>
